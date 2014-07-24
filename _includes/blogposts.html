@@ -1,0 +1,38 @@
+<dl class="workspace-menu accordion">	
+	<dd>
+		<a href="#chapter1" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Blog</a>
+		<div id="panel1" class="content  js-content active">
+			<ul>		
+				{% for post in paginator.posts %}
+				<li id="workspace-menu-published" data-page="posts">
+					(<span class="date">{{ post.date }}</span>): <a href="{{ post.url }}">{{ post.title }}</a> 
+				</li>
+				{% endfor %}
+					
+			</ul>
+		</div> <!-- end .content -->
+	</dd>
+
+</dl>
+
+<!-- >
+<div class="tabs-content">
+	<div class="available-attributes content active">
+		<ul>
+
+			<li class=""><a href="#">Chapter 1</a> </li>
+			<li class=""><a href="#">Chapter 2</a> </li>
+			<li class=""><a href="#">Chapter 3</a> </li>
+			
+		</ul>
+	</div>
+
+</div> -->
+
+<!-- 
+
+{% for ch in site.chapters  %}
+<p>{{ ch.name }}<p>
+{% endfor %}
+
+-->

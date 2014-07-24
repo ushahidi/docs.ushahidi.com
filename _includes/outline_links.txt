@@ -1,0 +1,327 @@
+<!-- Introduction -->
+<dd>
+	<a href="{%  post_url 0_intro/2014-07-20-index  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Introduction</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts"><a href="{%  post_url 0_intro/2014-07-20-index  %}"><p></p></a></li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Ch1: Understanding v3-->
+<dd>
+	<a href="{%  post_url /1_understanding/2014-07-20-understanding  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 1<br /><br />Understanding v3</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /1_understanding/2014-07-20-understanding  %}"><p>Case Study</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /1_understanding/2014-07-20-understanding-designchallenges  %}"><p>Design Challenges</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /1_understanding/2014-07-20-understanding-keyconcepts  %}"><p>Key Concepts</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Ch2: Strategy -->
+<dd>
+	<a href="{%  post_url /2_strategy/2014-07-20-strategy-reflect  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 2<br /><br /> Strategy</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-reflect  %}"><p>Reflection</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-goals  %}"><p>Goals &amp; Objectives</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-deployment-types  %}"><p>Deployment Types</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-staffing  %}"><p>Staffing</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-crowdsourcing  %}"><p>Crowdsourcing</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-partners  %}"><p>Partners</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-time  %}"><p>Time &amp; Resources</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-resources  %}"><p>Resources</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2_strategy/2014-07-20-strategy-products  %}"><p>Product Matrix</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Ch3: Installation -->
+<dd>
+	<a href="{%  post_url /3_installing/2014-07-20-tech  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 3<br /><br /> Installation</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>		
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /3_installing/2014-07-20-tech  %}"><p>Technology Environment</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /3_installing/2014-07-20-nix  %}"><p>Unix &amp; Linux</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /3_installing/2014-07-20-macosx  %}"><p>Mac OSX</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /3_installing/2014-07-20-win  %}"><p>Windows</p></a>
+			</li>		
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /3_installing/2014-07-20-migratingv2  %}"><p>Migrating from v2</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /3_installing/2014-07-20-migratingcm  %}"><p>Migrating from Crowdmap</p></a>
+			</li>	
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+	
+<!-- Ch4: Configuring -->	
+<dd>
+	<a href="{%  post_url /4_configuring/2014-07-20-configuring-firstlook  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 4<br /><br /> Configuration</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /4_configuring/2014-07-20-configuring-firstlook  %}"><p>First Look</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /4_configuring/2014-07-20-configuring-firststeps  %}"><p>First Steps</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /4_configuring/2014-07-20-configuring-sitesettings  %}"><p>Site Settings</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /4_configuring/2014-07-20-configuring-users  %}"><p>Managing Users</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /4_configuring/2014-07-20-configuring-mapsettings  %}"><p>Map Settings</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Ch5: Data Collection -->
+<dd>
+	<a href="{%  post_url /5_data/2014-07-20-data-intro  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 5<br /><br /> Data Model and Data Collection</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-intro  %}"><p>Knowing your Data Needs</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-model  %}"><p>Data Model</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-method  %}"><p>Data Collection Methods</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-outputs  %}"><p>Defining your Outputs</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-deploymentdata  %}"><p>Data Model for Deployment Types</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-postsmessages  %}"><p>Posts &amp; Messages</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-msg  %}"><p>Posts and Messages Configuration</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-msg-email  %}"><p>Email</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-msg-flsms  %}"><p>FrontlineSMS</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-msg-nexmo  %}"><p>Nexmo</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-msg-smsync  %}"><p>SMSync</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-msg-twilio  %}"><p>Twilio</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-customforms  %}"><p>Custom Forms</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /5_data/2014-07-20-data-categoriestags  %}"><p>Categories &amp; Tags</p></a>
+			</li>		
+			<li id="workspace-menu-published" data-page="posts">
+			<a href="{%  post_url /5_data/2014-07-20-data-resolution  %}"><p>Spatial Resolution</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Ch6: Deployment -->
+<dd>
+	<a href="{%  post_url /2014-07-20-deploy-prep  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 6<br /><br /> Deployment</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-deploy-prep  %}"><p>Preparation</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-deploy-train  %}"><p>Training</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-deploy-sim  %}"><p>Simulations</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-deploy-run-crowd  %}"><p>Running the Campaign with a Crowd</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-deploy-run-organize  %}"><p>Organizing a Crowd</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-deploy-feedback  %}"><p>Feedback Loops</p></a>
+			</li>	
+		</ul>
+	</div> <!-- end .content -->
+</dd>	
+
+<!-- Ch7: Curation -->
+<dd>
+	<a href="{%  post_url /2014-07-20-curate  %}" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 7<br /><br /> Curation</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate  %}"><p>Curation in Ushahidi</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-interface  %}"><p>Unified Interface</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-views  %}"><p>Views</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-technique  %}"><p>Curation Techniques</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-dedupe  %}"><p>Deduplication</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-geolocate  %}"><p>Geolocation</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-cluster  %}"><p>Clustering</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-translate  %}"><p>Translation</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-verify  %}"><p>Verification</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-sets  %}"><p>Sets</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-post  %}"><p>Managing Individual Posts</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-workflows  %}"><p>Workflows</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-curate-protection  %}"><p>Protecting Participants</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Ch8: Analysis-->
+<dd>
+	<a href="" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 8<br /><br /> Analysis</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-analysis  %}"><p>Telling a Story</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-analysis-viz-maps  %}"><p>Maps</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-analysis-viz-graphs  %}"><p>Graphs</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-analysis-export  %}">Exporting Data to Third-Party Tools<p></p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-analysis-api  %}"><p>Using the API for Data Analysis</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>		
+
+<!-- Ch9: Closure -->
+<dd>
+	<a href="" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 9<br /><br /> Closure</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-closing  %}"><p>Closing a Campaign</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-closing-archive  %}"><pArchiving Data</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-closing-community  %}"><p>Transitioning Community</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>	
+
+<!-- Ch10: Development -->
+<dd>
+	<a href="" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Chapter 10<br /><br /> Development</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-develop-story  %}"><p>Kohana and Ushahidi: A Story</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-develop-cleancode  %}"><p>Clean Code</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-develop-bdd  %}"><p>TDD and BDD: Test and Business Driven Development</p></a>
+			</li>			
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-develop-codetour  %}"><p>Code Tour</p></a>
+			</li>
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-develop-apiexplorer  %}"><p>API Explorer</p></a>
+			</li>	
+			<li id="workspace-menu-published" data-page="posts">
+				<a href="{%  post_url /2014-07-20-develop-extend  %}"><p>Extending Ushahidi</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Appendix A: Maps -->
+<dd>
+	<a href="" id="workspace-menu-posts" class="title  js-title active" data-section-title="">Appendix A<br /><br /> Mapping</a>
+	<div id="panel1" class="content  js-content active">
+		<ul>		
+			<li id="workspace-menu-published" data-page="posts">
+				<a href=""><p>Mapping 101</p></a>
+			</li>
+		</ul>
+	</div> <!-- end .content -->
+</dd>
+
+<!-- Appendix B -->
+<!-- Appendix C -->

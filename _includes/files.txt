@@ -1,0 +1,101 @@
+/0_intro:
+{% post_url /0_intro//2014-07-20-index %}
+
+
+/1_understanding:
+{% post_url /1_understanding/2014-07-20-understanding %}
+{% post_url /1_understanding/2014-07-20-understanding-designchallenges %}	
+{% post_url /1_understanding/2014-07-20-understanding-keyconcepts %}
+
+/2_strategy:
+{% post_url /2_strategy/2014-07-20-strategy-reflect %}
+{% post_url /2_strategy/2014-07-20-strategy-goals %}
+{% post_url /2_strategy/2014-07-20-strategy-deployment-types %}
+{% post_url /2_strategy/2014-07-20-strategy-staffing %}
+{% post_url /2_strategy/2014-07-20-strategy-crowdsourcing %}	
+{% post_url /2_strategy/2014-07-20-strategy-partners %}	
+{% post_url /2_strategy/2014-07-20-strategy-time %}
+{% post_url /2_strategy/2014-07-20-strategy-resources %}
+{% post_url /2_strategy/2014-07-20-strategy-products %}
+
+/3_installing:
+{% post_url /3_installing/2014-07-20-tech %}
+{% post_url /3_installing/2014-07-20-nix %}	
+{% post_url /3_installing/2014-07-20-macosx %}
+{% post_url /3_installing/2014-07-20-win %}		
+{% post_url /3_installing/2014-07-20-migratingv2 %}	
+{% post_url /3_installing/2014-07-20-migratingcm %}	
+	
+/4_configuring:
+{% post_url /4_configuring/2014-07-20-configuring-firstlook %}	
+{% post_url /4_configuring/2014-07-20-configuring-firststeps %}	
+{% post_url /4_configuring/2014-07-20-configuring-sitesettings %}
+{% post_url /4_configuring/2014-07-20-configuring-users %}
+{% post_url /4_configuring/2014-07-20-configuring-mapsettings %}
+
+/5_data:
+{% post_url /5_data/2014-07-20-data-intro %}
+{% post_url /5_data/2014-07-20-data-model %}
+{% post_url /5_data/2014-07-20-data-method %}
+{% post_url /5_data/2014-07-20-data-outputs %}
+{% post_url /5_data/2014-07-20-data-deploymentdata %}	
+{% post_url /5_data/2014-07-20-data-postsmessages %}
+{% post_url /5_data/2014-07-20-data-msg %}
+{% post_url /5_data/2014-07-20-data-msg-email %}	
+{% post_url /5_data/2014-07-20-data-msg-flsms %}
+{% post_url /5_data/2014-07-20-data-msg-nexmo %}
+{% post_url /5_data/2014-07-20-data-msg-smssync %}
+{% post_url /5_data/2014-07-20-data-msg-twilio %}
+{% post_url /5_data/2014-07-20-data-customforms %}
+{% post_url /5_data/2014-07-20-data-categoriestags %}		
+{% post_url /5_data/2014-07-20-data-resolution %}
+
+/6_deploying:
+{% post_url /2014-07-20-deploy-prep %}
+{% post_url /2014-07-20-deploy-train %}
+{% post_url /2014-07-20-deploy-sim %}
+{% post_url /2014-07-20-deploy-run-crowd %}	
+{% post_url /2014-07-20-deploy-run-organize %}
+{% post_url /2014-07-20-deploy-feedback %}		
+
+/7_curating:
+{% post_url /2014-07-20-curate %}
+{% post_url /2014-07-20-curate-interface %}
+{% post_url /2014-07-20-curate-views %}
+{% post_url /2014-07-20-curate-technique %}
+{% post_url /2014-07-20-curate-dedupe %}	
+{% post_url /2014-07-20-curate-geolocate %}	
+{% post_url /2014-07-20-curate-cluster %}	
+{% post_url /2014-07-20-curate-translate %}
+{% post_url /2014-07-20-curate-verify %}
+{% post_url /2014-07-20-curate-sets %}
+{% post_url /2014-07-20-curate-post %}
+{% post_url /2014-07-20-curate-workflows %}
+{% post_url /2014-07-20-curate-protection %}
+
+/8_analyzing:
+{% post_url /2014-07-20-analysis %}
+{% post_url /2014-07-20-analysis-viz-maps %}
+{% post_url /2014-07-20-analysis-viz-graphs %}
+{% post_url /2014-07-20-analysis-export %}	
+{% post_url /2014-07-20-analysis-api %}		
+x 
+/9_closing:
+{% post_url /2014-07-20-closing %}
+{% post_url /2014-07-20-closing-archive %}	
+{% post_url /2014-07-20-closing-community %}	
+
+/10_developing:
+{% post_url /2014-07-20-develop-story %}
+{% post_url /2014-07-20-develop-cleancode %}
+{% post_url /2014-07-20-develop-bdd %}			
+{% post_url /2014-07-20-develop-codetour %}
+{% post_url /2014-07-20-develop-apiexplorer %}	
+{% post_url /2014-07-20-develop-extend %}
+
+/appendixa:
+/2014-07-20-maps %}
+
+/appendixb:
+
+/appendixc:
