@@ -6,3 +6,4 @@ permalink: /toolkit.html
 ---
 
 A toolkit for strategic thinking around deployments and simulations.
+

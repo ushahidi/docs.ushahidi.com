@@ -1,0 +1,5 @@
+
+{% for post in site.categories.photo %}
+    # render the photo post html
+{% endfor %}
+

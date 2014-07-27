@@ -5,6 +5,11 @@ title: Running the Campaign
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- toolkit
+editor: JenniferChan7
+
 ---
 
 ### Getting the word out

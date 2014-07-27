@@ -5,6 +5,10 @@ title: Nexmo
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+editor: jcrowley
+
 ---
 
 ### Nexmo

@@ -5,6 +5,11 @@ title: Migrating from v2
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- quickstart
+editor: jcrowley
+
 ---
 
 ## &sect; Migrating from v2

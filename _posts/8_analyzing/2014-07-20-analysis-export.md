@@ -5,6 +5,11 @@ title: Exporting Data
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- toolkit
+editor: shadrock
+
 ---
 
 ## Exporting your Data for Analysis

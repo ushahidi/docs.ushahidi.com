@@ -5,6 +5,13 @@ title: Key Concepts
 date: 2014-07-20
 published: true
 
+tags: 
+	- guide
+  
+editor: jcrowley
+
+demo: 1
+
 ---
 
 ## Key Concepts in v3
@@ -20,7 +27,7 @@ SOLID, Clean Code framework based on Uncle Bob. Kohana is still there, but not t
 ### Security and Permissions
 
 
-Role-based views, security around code.
+Role-based views, security around code. Security v Privacy.
 
 ### Simplified Installation
 
@@ -39,5 +46,9 @@ Posts and Messages allow for SMS Reports, Social Media, Emails, and Web Reports 
 #### Views
 
 ### Workflows
+
+---
+
+Highlight from toolboxes: unified interface, customized design, workflows, forms, sets, interop of migration
 
 

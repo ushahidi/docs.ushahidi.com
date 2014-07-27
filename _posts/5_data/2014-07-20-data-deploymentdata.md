@@ -5,6 +5,13 @@ title: Data Models for Deployment Types
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- toolkit
+editor: jcrowley
+
+# May go on hold
+
 ---
 
 ## &sect; Data Models for Deployment Types
@@ -22,4 +29,6 @@ published: true
 ### Poverty Mapping
 
 ### Sensor Tracking
+
+
 

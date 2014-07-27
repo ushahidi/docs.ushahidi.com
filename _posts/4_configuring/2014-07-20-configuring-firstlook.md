@@ -5,6 +5,11 @@ title: Configuration First Looks
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- quickstart
+editor: jcrowley
+
 ---
 
 ## &sect; First Look at the Site

@@ -5,6 +5,12 @@ title: Design Challenges
 date: 2014-07-20
 published: true
 
+tags: 
+	- guide
+  
+editor: jcrowley
+
+
 ---
 
 ## Why v3: Smallsurfaces and the design challenges of v3

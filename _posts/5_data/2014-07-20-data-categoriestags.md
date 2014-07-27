@@ -5,6 +5,11 @@ title: Categories and Tags
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- toolkit
+editor: jcrowley
+
 ---
 
 ### Categories and Tags

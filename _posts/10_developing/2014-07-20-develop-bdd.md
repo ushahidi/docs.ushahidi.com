@@ -5,6 +5,10 @@ title: Configuring
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+editor: jcrowley
+
 ---
 
 TDD and BDD from Woody's point of view.

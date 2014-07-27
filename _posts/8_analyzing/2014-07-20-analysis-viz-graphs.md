@@ -5,6 +5,11 @@ title: Charts and Graphs
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- toolkit
+editor: shadrock
+
 ---
 
 ### Building Charts and Graphs

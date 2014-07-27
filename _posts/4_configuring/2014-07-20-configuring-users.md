@@ -5,6 +5,11 @@ title: Managing Users
 date: 2014-07-20
 published: true
 
+tags:
+	- guide
+	- quickstart
+editor: jcrowley
+
 ---
 
 ## &sect; Managing Users

@@ -45,8 +45,7 @@ Custom development to meet needs. Security questions.
 
 ### Security
 
-## &sect; Key Concepts in v3
-
+## &para; &sect;  Key Concepts in v3
 
 Software cannot solve all problems. It can, however, catalyze a community of problem solvers to build tools to address challenges.
 
