@@ -7,6 +7,14 @@ url: "http://ushahidi.github.io/"
 twitter_username: jcrowley
 github_username:  ushahidi
 
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "post"
+    values:
+      layout: "post_guide"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
