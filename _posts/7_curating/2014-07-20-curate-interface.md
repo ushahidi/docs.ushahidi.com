@@ -4,11 +4,9 @@ doc_element: 7
 title: Unified Interface
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
+  - guide
 editor: jcrowley
-
 ---
 
 ## Unified Interface

@@ -4,12 +4,10 @@ doc_element: 4.3
 title: Site Settings
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- quickstart
+  - guide
+  - quickstart
 editor: jcrowley
-
 ---
 
 ## &sect; Modifying Site Settings

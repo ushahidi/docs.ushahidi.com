@@ -3,14 +3,11 @@ layout: post_guide
 doc_element: 5.1
 title: Data Collection Design
 date: 2014-07-20
-published: true
-
+published: true 
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: JenniferChan7
-
-
 ---
 
 ## Data Model and Data Collection Methodology

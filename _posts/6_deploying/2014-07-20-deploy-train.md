@@ -4,12 +4,10 @@ doc_element: 6
 title: Training
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: JenniferChan7
-
 ---
 
 ## Training

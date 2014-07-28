@@ -4,11 +4,9 @@ doc_element: 5.
 title: SMSync
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
+  - guide
 editor: jcrowley
-
 ---
 
 ### SMSYNC

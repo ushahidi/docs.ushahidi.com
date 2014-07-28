@@ -4,12 +4,10 @@ doc_element: 4.5
 title: Map Settings
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- quickstart
+  - guide
+  - quickstart
 editor: shadrock
-
 ---
 
 ## &sect; Map Settings

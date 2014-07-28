@@ -4,12 +4,10 @@ doc_element: 2.5
 title: Crowdsourcing
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: JenniferChan7
-
 ---
 
 ## Collecting Information and Crowdsourcing

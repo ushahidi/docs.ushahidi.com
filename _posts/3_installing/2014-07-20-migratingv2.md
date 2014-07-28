@@ -4,12 +4,10 @@ doc_element: 3.5
 title: Migrating from v2
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- quickstart
+  - guide
+  - quickstart
 editor: jcrowley
-
 ---
 
 ## &sect; Migrating from v2
