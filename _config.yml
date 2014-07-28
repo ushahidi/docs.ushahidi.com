@@ -5,7 +5,7 @@ description: "Ushahidi docs for practices and tools around v3 Ushahidi platform"
 baseurl: "/docs.ushahidi.com/"
 url: "http://ushahidi.github.io/"
 twitter_username: jcrowley
-github_username:  jcrowley
+github_username:  ushahidi
 
 # Build settings
 markdown: kramdown
@@ -16,7 +16,7 @@ paginate: 5
 # prose.io settings
 prose:
     rooturl: _posts
-    siteurl: http://jcrowley.net/guide
+    siteurl: http://ushahidi.github.io/docs.ushahidi.com
     metadata:
         _posts:
           - name: "layout"
