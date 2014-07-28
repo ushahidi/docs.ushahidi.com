@@ -4,12 +4,10 @@ doc_element: 9
 title: Closing out your data
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: JenniferChan7
-
 ---
 
 ## Data Archive

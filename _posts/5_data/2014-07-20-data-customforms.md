@@ -4,12 +4,10 @@ doc_element: 5.
 title: Custom Forms Creating your Data Model
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: jcrowley
-
 ---
 
 ## Creating your Data Model

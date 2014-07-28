@@ -4,12 +4,10 @@ doc_element: 4.4
 title: Managing Users
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- quickstart
+  - guide
+  - quickstart
 editor: jcrowley
-
 ---
 
 ## &sect; Managing Users

@@ -4,11 +4,9 @@ doc_element: 7
 title: Curating a Post
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
+  - guide
 editor: jcrowley
-
 ---
 
 ## Managing Individual Posts

@@ -4,12 +4,10 @@ doc_element: 2.9
 title: Product Matrix
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: jcrowley
-
 ---
 
 ## &sect; Ushahidi Product Matrix

@@ -4,12 +4,10 @@ doc_element: 8
 title: Charts and Graphs
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: shadrock
-
 ---
 
 ### Building Charts and Graphs

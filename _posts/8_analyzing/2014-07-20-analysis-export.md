@@ -4,12 +4,10 @@ doc_element: 8
 title: Exporting Data
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: shadrock
-
 ---
 
 ## Exporting your Data for Analysis

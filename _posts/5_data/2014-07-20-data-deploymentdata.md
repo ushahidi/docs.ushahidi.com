@@ -4,11 +4,11 @@ doc_element: 5.3
 title: Data Models for Deployment Types
 date: 2014-07-20
 published: true
-
 tags:
-	- guide
-	- toolkit
+  - guide
+  - toolkit
 editor: jcrowley
+---
 
 # May go on hold
 
