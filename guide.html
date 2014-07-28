@@ -1,60 +1,19 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+---
+layout: page
+title: Guide
+permalink: /guide.html
 
-  {% include head.html %}
+---
 
-    <body>
-	<div class="app-layout">
-		<div class="content-wrapper js-content-wrapper">
+The homepage for the Guide. [Links to the outline](outline.html).
 
-    {% include header.html %}
-
-	<section id="main-region" role="main"><div><div class="row">
-		
-		{% include actionsbar.html %}
-
-		<!-- left sidebar -->
-		<div class="list-view-wrapper">
-			<aside class="attribute-sidebar">
-				{% include menu_leftsidebar.html %}
-			</aside>
-
-			<!-- form -->
-			<div class="form-attributes">
-
-        <p>The homepage for the Guide. [Links to the outline](outline.html).</p>
-        
-        <ul class="posts">
-        {% for post in site.tags.guide %}
-          <div class="post_info">
-            <li>
-                 <a href="{{ post.url }}">{{ post.title }}</a>
-                 <span>({{ post.date | date:"%Y-%m-%d" }})</span>
-            </li>
-            </div>
-          {% endfor %}
-        </ul>
-
-			</div>
-			
-			
-
-		</div><!-- end list-view-wrapper -->
-
-	</div> <!-- end .row -->
-	</div></section>
-
-    {% include footer.html %}
-
-	</div>
-	</div><!-- end app layout -->
-    </body>
-</html>
+<ul class="posts">
+{% for post in site.tags.guide %}
+  <div class="post_info">
+    <li>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+         <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+    </li>
+    </div>
+  {% endfor %}
+</ul>
