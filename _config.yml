@@ -6,6 +6,7 @@ baseurl: "/docs.ushahidi.com"
 url: "http://ushahidi.github.io/"
 twitter_username: jcrowley
 github_username:  ushahidi
+layouts: ./_layouts
 
 defaults:
   -
