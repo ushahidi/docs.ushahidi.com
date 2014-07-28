@@ -4,14 +4,10 @@ docelement: 1.3
 title: Key Concepts
 date: 2014-07-20
 published: true
-
 tags: 
-	- guide
-  
+  - guide
 editor: jcrowley
-
 demo: 1
-
 ---
 
 ## Key Concepts in v3
