@@ -7,6 +7,7 @@ published: true
 tags: 
   - guide
 editor: jcrowley
+layout: post_guide
 ---
 
 ## Why v3: Smallsurfaces and the design challenges of v3
