@@ -28,7 +28,21 @@
 			<!-- form -->
 			<div class="form-attributes">
 				{{content}}
+        
+        <ul class="posts">
+        {% for post in site.tags.guide %}
+          <div class="post_info">
+            <li>
+                 <a href="{{ post.url }}">{{ post.title }}</a>
+                 <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+            </li>
+            </div>
+          {% endfor %}
+        </ul>
+        
 			</div>
+      
+      
 			
 			<aside class="attribute-sidebar">
 				{% include blogposts.html %}
