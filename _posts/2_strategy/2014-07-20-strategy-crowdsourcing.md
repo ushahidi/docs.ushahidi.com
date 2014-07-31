@@ -92,7 +92,14 @@ Sometimes crowdsourcing project struggle with just a few messages. This can be d
 
 ---
 
+<<<<<<< HEAD
 Tips and Guiding Questions
+=======
+Partners who use Ushahidi as a data collection platform v partners who use crowdsourcing methodology.
+How to people fit it: are they research subjects or participants? IRB?
+
+Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
+>>>>>>> added more content to outline from Heather
 
 1. Does your project or are of activity already collect information? Are there needs for more information that will help your project goals?
 + Are other people, programs or organizations already collecting similar information/data? Maybe it's best to collaborate with them rather than collect the same data. Or perhaps you can help reorganize the existing data so that it can be imported into the Ushahidi platform.
