@@ -22,4 +22,5 @@ editor: JenniferChan7
 Intro to thinking about data. 
 jcrowley to start draft. jchan to continue
 think linkage between crowdsourcing and 
+data pipeline: school of data. 
 

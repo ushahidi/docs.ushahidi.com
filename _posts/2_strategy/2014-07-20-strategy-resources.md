@@ -15,3 +15,4 @@ editor: JenniferChan7
 ### Costs
 
 
+Costing model, may be a first for Ushahidi.

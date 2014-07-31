@@ -19,4 +19,7 @@ editor: JenniferChan7
 ---
 
 Partners who use Ushahidi as a data collection platform v partners who use crowdsourcing methodology.
+How to people fit it: are they research subjects or participants? IRB?
+
+Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
 

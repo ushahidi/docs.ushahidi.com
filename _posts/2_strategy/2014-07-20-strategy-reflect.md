@@ -15,7 +15,9 @@ Before you install and configure Ushahidi, take time to think about your strateg
 
 ### Practical Considerations
 
+
 ### Questions to ask yourself
+
 
 
 
