@@ -42,8 +42,11 @@ If you have an ongoing X project and want to collect the opinions from the publi
 
 During disasters and crisis, crowdsourcing may be a very valuble approach if affected communities and/or response organizations are sharing information on SMS, Twitter, or another publicly shared social media platform. (example here)
 
+Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing. 
+
 ### Types of Crowdsourcing
 
+<<<<<<< HEAD
 If you decide to crowdsource information into the Ushahidi platform here are a few examples of different crowdsourcing approaches
 
 1. __Unbounded crowdsouring__ Anyone in the public space who is aware and knows how to send information, can freely send in information to you. One advantage (with a good campaign) is that you can collect large volumes of information. A drawback is that information may not be reliable.
@@ -100,6 +103,13 @@ How to people fit it: are they research subjects or participants? IRB?
 
 Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
 >>>>>>> added more content to outline from Heather
+=======
+Crowds can be bounded or unbounded. They might collect data into a central place. They can also take existing data and parse it into small bits which the crowd then parallel processes. 
+
+Discussion of the application of different types of crowdsourcing to different types of problems.
+
+
+>>>>>>> added content to intro, ch 1 and 2
 
 1. Does your project or are of activity already collect information? Are there needs for more information that will help your project goals?
 + Are other people, programs or organizations already collecting similar information/data? Maybe it's best to collaborate with them rather than collect the same data. Or perhaps you can help reorganize the existing data so that it can be imported into the Ushahidi platform.
