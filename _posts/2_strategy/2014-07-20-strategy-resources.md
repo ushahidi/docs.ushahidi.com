@@ -12,7 +12,8 @@ editor: JenniferChan7
 
 ## &sect; Resources
 
-### Costs
+Ushahidi may be free software, but deployments require time and (sometimes) incur expenses beyond the technology? What will is cost to mobilize communities? What transportation costs are associated with sending a mobilizer to a remote place? How much might SMS/text messages cost, or bandwidth
 
+### Costing Model
 
-Costing model, may be a first for Ushahidi.
+What does a typical costing model look like?
