@@ -12,6 +12,12 @@ editor: jcrowley
 
 ## &sect; Ushahidi Product Matrix
 
+
+Given the strategy that you are forming, is Ushahidi right for you? There are many cases when other technologies better match your goals. link to deadushahidi...
+
+
 ### Crowdmap, Ushahidi v3, Red Carpet, Custom
+
+Which Ushahidi product is right for you?
 
 

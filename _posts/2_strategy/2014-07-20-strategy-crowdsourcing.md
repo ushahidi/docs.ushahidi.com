@@ -14,12 +14,13 @@ editor: JenniferChan7
 
 ### Building a Campaign: If you build it, they might come:
 
+Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing. 
+
 ### Types of Crowdsourcing
 
----
+Crowds can be bounded or unbounded. They might collect data into a central place. They can also take existing data and parse it into small bits which the crowd then parallel processes. 
 
-Partners who use Ushahidi as a data collection platform v partners who use crowdsourcing methodology.
-How to people fit it: are they research subjects or participants? IRB?
+Discussion of the application of different types of crowdsourcing to different types of problems.
 
-Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
+
 
