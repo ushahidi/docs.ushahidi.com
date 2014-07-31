@@ -12,9 +12,12 @@ editor: JenniferChan7
 
 ## &sect; Scheduling
 
+Scheduling shifts and staff time is a critical path to success. Volunteers need structure, and data needs consistent handling. What do these schedules typically look like?
+
 ### Time Commitment
+
+What kind of time commitment is necessary to make Ushahidi a success?
 
 ### Timelines
 
-
-SBTF Scheduling tools?
+How do projects typically unfold? What is the timeline?
