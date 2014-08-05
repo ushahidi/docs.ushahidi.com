@@ -5,7 +5,7 @@ title: Objectives and Goals
 date: 2014-07-20
 published: true
 
-tags: 
+tags:
 	- guide
 	- toolkit
 editor: JenniferChan7
@@ -17,5 +17,3 @@ editor: JenniferChan7
 ### What are trying to do?
 
 ### What data will enable you to get to your goals?
-
-
