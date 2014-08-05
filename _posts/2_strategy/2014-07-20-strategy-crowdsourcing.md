@@ -56,7 +56,34 @@ Project can have both bounded and unbounded crowdsourcing approaches.
 
 ### Building a Campaign:
 
+For crowdsourcing project, a campaign or a strategy to inform the public about your project is key to success.
+
+#### The Message
+The campaign should include the following parts.
+
+1. Your project purpose
++ What the public's role contribution is
++ The 'how to' of sharing information
++ What to expect and for how long
+
+> _Think about the most used and common media available in the country, have a clear message and advertise your project in a way that people understand who you are and what do you want to achieve, make sure you manage expectations in advance, engage people in a participatory way using local media Anahi Ayala Iacucci_
+
+### How to share it
+
+How you communicate your message is just as important as the message itself!
+
+During election campaigns, messages can be shared via newspapers and magazines, television advertisements and local radio. For projects that seek to tap into online communities, messaging through Facebook, Twitter, andother social media platforms can be a good method. In very limited digital setting, local radio will be a very important modality and investing in community meeting with local leaders, midwifes, and other community champions will help get the word out. If you are working with partners, collaborating with them to spread the work is also a good way to share communications
+
+(privacy and risks) if you have a project that will collect information using a secure bounded crowdsourced system, ensure that your campaign message will travel through trusted people and communication channels. Make sure that this is designed carefully with close guidance from at risk communities and experts before any campaign is started.
+
+
 #### If you build it, they might come...
+
+Disaster and election monitoring projects, with a strong message and campaign can be very successful and sometimes overwhelming!  Information from the public (SMS, Tweets, reports) can come into your Ushahidi platform so quickly
+that manage this _information explosion_ can be challenging require more people, resources and time than initially planned. 
+
+(quotes)
+
 
 
 #### Or they may not come at all...
@@ -71,3 +98,5 @@ Tips and Guiding Questions
 + For projects in digitally limited environments, data entry on Ushahidi's online platform is not a good entry point because people will need to have computers/phones, reliable electricity, some digital literacy and good mobile data or bandwidth.
 + What is [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing)?
 + Want to learn more about variations in crowdsourcing? Check out Anahi Iacucci's great slideshare on [Crowdsourcing and Crowdfeeding](http://www.slideshare.net/AnahiAyala/crowdsourcing-and-crowdfeeding)
++ Unsure of how to determine what information is needed? Unsure? Plan a meeting with your partners to discuss how the information will affect decision making and the goals of partners and the overall project.
++ media campaigns can be expensive, but you can also be creative by tapping into existing community networks that can spread the word. (example here)
