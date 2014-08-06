@@ -46,7 +46,6 @@ Just because an organization launches Ushahidi does not mean that a crowd magica
 
 ### Types of Crowdsourcing
 
-<<<<<<< HEAD
 If you decide to crowdsource information into the Ushahidi platform here are a few examples of different crowdsourcing approaches
 
 1. __Unbounded crowdsouring__ Anyone in the public space who is aware and knows how to send information, can freely send in information to you. One advantage (with a good campaign) is that you can collect large volumes of information. A drawback is that information may not be reliable.
@@ -93,23 +92,17 @@ _If you decide not to respond, then it is extremely important that you make this
 Sometimes crowdsourcing project struggle with just a few messages. This can be due to some of the following challenges. 
 
 
----
 
-<<<<<<< HEAD
-Tips and Guiding Questions
-=======
-Partners who use Ushahidi as a data collection platform v partners who use crowdsourcing methodology.
-How to people fit it: are they research subjects or participants? IRB?
+
 
 Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
->>>>>>> added more content to outline from Heather
-=======
+
+Crowdsourcig is a set of techniques to mobilize many individuals to 
+
 Crowds can be bounded or unbounded. They might collect data into a central place. They can also take existing data and parse it into small bits which the crowd then parallel processes. 
 
 Discussion of the application of different types of crowdsourcing to different types of problems.
 
-
->>>>>>> added content to intro, ch 1 and 2
 
 1. Does your project or are of activity already collect information? Are there needs for more information that will help your project goals?
 + Are other people, programs or organizations already collecting similar information/data? Maybe it's best to collaborate with them rather than collect the same data. Or perhaps you can help reorganize the existing data so that it can be imported into the Ushahidi platform.
@@ -129,3 +122,19 @@ ___
 + (Anahi))Announcement of the service: how to use it, who is running it, how are the messages processed, what reaction can people expect as a result. The message going out should be very simple, but crystal clear.
 + (Anahi) Automatic reply: once someone sends a message, than should automatically receive a message like: thank you for your message, it was received and will be processed.
 + (Anahi) After some time of service is in place and some ammount of messages were processed, there should be a media outreach  telling people how the system works, success stories, repeating the purpose of the service. This whole process needs some capacity, but is critical.
+
+---
+---
+
+Tips and Guiding Questions
+
+Partners who use Ushahidi as a data collection platform v partners who use crowdsourcing methodology.
+How to people fit it: are they research subjects or participants? IRB?
+
+Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
+
+Crowds can be bounded or unbounded. They might collect data into a central place. They can also take existing data and parse it into small bits which the crowd then parallel processes. 
+
+Discussion of the application of different types of crowdsourcing to different types of problems.
+
+
