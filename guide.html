@@ -29,6 +29,8 @@ permalink: /guide.html
   {% assign doc_el_bottom = weight | times:10 %}
   {% assign post_weight = post.doc_element | times:10 %}
 
+
+ {% if post.doc_element > and post_weight <= doc_el_top %}
   <div class="post_info">
 
     <li>
@@ -36,7 +38,7 @@ permalink: /guide.html
          <span>( {{post.editor}}:  {{doc_el_bottom}} / {{post_weight}} / {{doc_el_top}}  )</span>
     </li>
     </div>
-    
+    {% endif %}
     {% assign doc_el_top = null %}
     {% assign doc_el_bottom = null %}
     {% assign post_weight = null %}
