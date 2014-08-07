@@ -18,7 +18,7 @@ editor: JenniferChan7
 ### What are trying to do?
 
 ### What data will enable you to get to your goals?
-=======
+
 What are objectives do you need to meet? What goals has your organization set for the deployment?
 
 ### What are you trying to do?

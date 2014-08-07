@@ -4,7 +4,7 @@ doc_element: 2.5
 title: Crowdsourcing
 date: 2014-07-20
 published: true
-tags:
+tags: 
   - guide
   - toolkit
 editor: JenniferChan7
@@ -41,6 +41,8 @@ While crowdsourcing information through SMS, Twitter, Facebook and other social 
 If you have an ongoing X project and want to collect the opinions from the public over the year, this will require a campaign strategy and resources to keep your public community informed of your project. Think about how you will keep the community engaged and find creative ways to make this happen. This might include a feedback strategy, games, and even in person meetings, depending upon your environment
 
 During disasters and crisis, crowdsourcing may be a very valuble approach if affected communities and/or response organizations are sharing information on SMS, Twitter, or another publicly shared social media platform. (example here)
+
+Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing. 
 
 Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing. 
 
@@ -97,7 +99,7 @@ Sometimes crowdsourcing project struggle with just a few messages. This can be d
 
 Are you using partner crowdsourcing tools? Micromapping, crowdcrafting, etc? SMall pieces loosely joined? Storify model?
 
-Crowdsourcig is a set of techniques to mobilize many individuals to 
+Crowdsourcig is a set of techniques to mobilize many individuals to ...
 
 Crowds can be bounded or unbounded. They might collect data into a central place. They can also take existing data and parse it into small bits which the crowd then parallel processes. 
 
