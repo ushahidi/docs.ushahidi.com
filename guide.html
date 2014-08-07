@@ -21,27 +21,7 @@ permalink: /guide.html
 
 {% for weight in (1..14) %}
 <h3>Chapter {{weight}}</h3>
-<ul class="posts">
-  {% for post in site.tags.guide %}
-  {% assign doc_el_top = (weight + 1) * 10 %}
-  {% assign doc_el_bottom = weight * 10 %}
-  {% assign post_weight = post.doc_element * 10 %}
-  
-  <div class="post_info">
-    {% if post_weight >= doc_el_bottom and post_weight <= doc_el_top %}
-    <li>
-         <a href="{{ post.url }}">{{ post.title }}</a>
-         <span>( {{post.editor}} )</span>
-    </li>
-    </div>
-    
-    {% assign doc_el_top = nil %}
-    {% assign doc_el_bottom = nil %}
-    {% assign post_weight = nil %}
-    
-    {% endif %}
-  {% endfor %}
-</ul>
+
 {% endfor %}
 
 
