@@ -19,6 +19,18 @@ permalink: /guide.html
 
 <p><strong>NOTE</strong>: we are still working on creating a mechanism for ordering the modules in the Toolit and Quickstart guide. There a Jekyll issues here which cannot be solved in GitHub pages (i.e., they require Ruby code). That chain of repo->build server->publication server is just about ready, but is still not quite working. For now, the modules are displayed in GitHub pages, sadly out of order, in the Toolkit and QuickStart Manual.</p>
 
+<ul class="posts">
+{% for post in site.tags.guide %}
+
+  <div class="post_info">
+    <li>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+         <span>({{ post.date | date:"%Y-%m-%d" }}) {{post.editor}}</span>
+    </li>
+    </div>
+  {% endfor %}
+</ul>
+
 
 
 
