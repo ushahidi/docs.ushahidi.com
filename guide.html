@@ -22,7 +22,7 @@ permalink: /guide.html
 {% for weight in (1..14) %}
 <h3>Chapter {{weight}}</h3>
 <ul class="posts">
-  {% for post in site.tags.guide %}
+  {% for post in site.tags.guide | sort: "doc_element" %}
   
   {% assign doc_el_top = weight | plus: 1 %}
   {% assign doc_el_top = doc_el_top | times: 10 %}
@@ -31,19 +31,20 @@ permalink: /guide.html
 
 
  {% if post_weight >= doc_el_bottom and post_weight <= doc_el_top %} 
+
   <div class="post_info">
 
     <li>
-         <a href="{{ post.url }}">{{ post.title }}</a>
+         {{post.doc_element}} <a href="{{ post.url }}">{{ post.title }}</a>
          <span>( {{post.editor}} )</span>
     </li>
     </div>
     {% endif %}
+    
     {% assign doc_el_top = null %}
     {% assign doc_el_bottom = null %}
     {% assign post_weight = null %}
     
-
   {% endfor %}
 </ul>
 {% endfor %}
