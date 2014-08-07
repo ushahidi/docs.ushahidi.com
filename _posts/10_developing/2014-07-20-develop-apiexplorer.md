@@ -1,6 +1,6 @@
 ---
 layout: post_guide
-doc_element: 10.1
+doc_element: 10.6
 title: API Explorer
 date: 2014-07-20
 published: true

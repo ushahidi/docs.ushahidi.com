@@ -1,6 +1,6 @@
 ---
 layout: post_guide
-doc_element: 8
+doc_element: 8.5
 title: Ushahidi as an API
 date: 2014-07-20
 published: true

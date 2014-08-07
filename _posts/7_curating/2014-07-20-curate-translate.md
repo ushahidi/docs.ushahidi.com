@@ -1,6 +1,6 @@
 ---
 layout: post_guide
-doc_element: 7
+doc_element: 7.8
 title: Curating Posts and Messages Translation
 date: 2014-07-20
 published: true
