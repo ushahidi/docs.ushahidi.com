@@ -1,6 +1,6 @@
 ---
 layout: post_guide
-doc_element: 6
+doc_element: 6.4
 title: Collecting Data from Crowd
 date: 2014-07-20
 published: true

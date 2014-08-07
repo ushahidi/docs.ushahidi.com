@@ -1,6 +1,6 @@
 ---
 layout: post_guide
-doc_element: 6
+doc_element: 6.5
 title: Running the Campaign
 date: 2014-07-20
 published: true
