@@ -30,7 +30,7 @@ permalink: /guide.html
   {% assign post_weight = post.doc_element | times:10 %}
 
 
- {% if post.doc_element > and post_weight <= doc_el_top %}
+ {% if post_weight >= doc_el_bottom and post_weight <= doc_el_top %} 
   <div class="post_info">
 
     <li>
