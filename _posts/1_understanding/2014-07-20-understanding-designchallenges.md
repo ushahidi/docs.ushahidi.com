@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 1.2
+chapter: 1
+doc_element: 2
 title: Design Challenges
 date: 2014-07-20
 published: true
