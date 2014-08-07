@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 2.1
+chapter: 2
+doc_element: 1
 title: Reflect
 date: 2014-07-20
 published: true

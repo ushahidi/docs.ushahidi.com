@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 8.2
+chapter: 8
+doc_element: 2
 title: Maps
 date: 2014-07-20
 published: true

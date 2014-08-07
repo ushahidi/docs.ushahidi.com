@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 2.2
+chapter: 2
+doc_element: 2
 title: Objectives and Goals
 date: 2014-07-20
 published: true

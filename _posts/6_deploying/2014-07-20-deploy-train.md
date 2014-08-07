@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 6.2
+chapter: 6
+doc_element: 2
 title: Training
 date: 2014-07-20
 published: true

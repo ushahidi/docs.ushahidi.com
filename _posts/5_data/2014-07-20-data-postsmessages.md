@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 5.4
+chapter: 5
+doc_element: 4
 title: Posts and Messages in Ushahidi
 date: 2014-07-20
 published: true

@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 4.4
+chapter: 4
+doc_element: 4
 title: Managing Users
 date: 2014-07-20
 published: true

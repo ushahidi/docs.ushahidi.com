@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-docelement: 1.3
+docelement: 3
+chapter: 1
 title: Key Concepts
 date: 2014-07-20
 published: true

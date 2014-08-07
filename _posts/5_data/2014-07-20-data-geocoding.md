@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 5.8
+chapter: 5
+doc_element: 8
 title: Geocoding
 date: 2014-07-20
 published: true

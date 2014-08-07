@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 5.2
+chapter: 5
+doc_element: 2
 title: Data Model and Data Collection Methodology
 date: 2014-07-20
 published: true

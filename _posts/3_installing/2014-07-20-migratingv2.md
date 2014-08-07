@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 3.5
+chapter: 3
+doc_element: 5
 title: Migrating from v2
 date: 2014-07-20
 published: true

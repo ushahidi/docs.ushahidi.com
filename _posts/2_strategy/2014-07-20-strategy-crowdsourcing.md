@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 2.5
+chapter: 2
+doc_element: 5
 title: Crowdsourcing
 date: 2014-07-20
 published: true

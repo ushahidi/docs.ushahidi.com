@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 7.12
+chapter: 7
+doc_element: 12
 title: Workflows
 date: 2014-07-20
 published: true
