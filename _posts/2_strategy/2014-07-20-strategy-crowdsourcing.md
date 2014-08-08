@@ -5,7 +5,7 @@ doc_element: 5
 title: Crowdsourcing
 date: 2014-07-20
 published: true
-tags: 
+tags:
   - guide
   - toolkit
 editor: JenniferChan7
@@ -45,7 +45,7 @@ During disasters and crisis, crowdsourcing may be a very valuble approach if aff
 
 Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing. 
 
-Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing. 
+Just because an organization launches Ushahidi does not mean that a crowd magically appears. Building participation in a crowdsourcing project requires grassroots organizing.
 
 ### Types of Crowdsourcing
 
@@ -105,6 +105,8 @@ Crowdsourcig is a set of techniques to mobilize many individuals to ...
 Crowds can be bounded or unbounded. They might collect data into a central place. They can also take existing data and parse it into small bits which the crowd then parallel processes. 
 
 Discussion of the application of different types of crowdsourcing to different types of problems.
+<<<<<<< HEAD
+=======
 
 
 1. Does your project or are of activity already collect information? Are there needs for more information that will help your project goals?
@@ -141,3 +143,4 @@ Crowds can be bounded or unbounded. They might collect data into a central place
 Discussion of the application of different types of crowdsourcing to different types of problems.
 
 
+>>>>>>> FETCH_HEAD
