@@ -19,6 +19,26 @@ permalink: /guide.html
 
 <p><strong>NOTE</strong>: we are still working on creating a mechanism for ordering the modules in the Toolit and Quickstart guide. There a Jekyll issues here which cannot be solved in GitHub pages (i.e., they require Ruby code). That chain of repo->build server->publication server is just about ready, but is still not quite working. For now, the modules are displayed in GitHub pages, sadly out of order, in the Toolkit and QuickStart Manual.</p>
 
+{% for weight in (1..14) %}
+<h3>Chapter {{weight}}</h3>
+<ul class="posts">
+  {% for post in site.tags.guide | sort: "doc_element" %}
+
+ {% if post.chapter == weight %} 
+
+  <div class="post_info">
+
+    <li>
+         {{post.doc_element}} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+         <span>( {{post.editor}} )</span>
+    </li>
+    </div>
+    {% endif %}
+  
+    
+  {% endfor %}
+</ul>
+{% endfor %}
 
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 8
+chapter: 8
+doc_element: 3
 title: Charts and Graphs
 date: 2014-07-20
 published: true

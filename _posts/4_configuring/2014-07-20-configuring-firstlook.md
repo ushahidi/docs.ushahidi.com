@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 4.1
+chapter: 4
+doc_element: 1
 title: Configuration First Looks
 date: 2014-07-20
 published: true

@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 3.6
+chapter: 3
+doc_element: 6
 title: Migrating from Crowdmap
 date: 2014-07-20
 published: true

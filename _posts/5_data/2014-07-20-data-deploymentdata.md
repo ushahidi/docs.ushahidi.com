@@ -1,6 +1,7 @@
 ---
 layout: post_guide
-doc_element: 5.3
+chapter: 5
+doc_element: 3
 title: Data Models for Deployment Types
 date: 2014-07-20
 published: true
