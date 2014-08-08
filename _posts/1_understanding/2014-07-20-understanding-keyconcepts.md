@@ -1,6 +1,6 @@
 ---
 layout: post_guide
-docelement: c
+doc_element: c
 chapter: 1
 title: Key Concepts
 date: 2014-07-20
