@@ -3,7 +3,7 @@ layout: post_guide
 chapter: 1
 doc_element: b
 title: Design Challenges
-date: 2014-07-22
+date: 2014-07-21
 published: true
 tags: 
   - guide
