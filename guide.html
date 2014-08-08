@@ -23,15 +23,16 @@ permalink: /guide.html
 <h3>Chapter {{weight}}</h3>
 <ul class="posts">
   {% assign doc_array = null %}
-  {% for post in site.tags.guide %}
+  {% for post in site.tags.guide | sort: "doc_element" %}
+  
   {% assign chapter = post.chapter | plus: 0 %}
- 
- {% if post.chapter == weight %} 
-
+  {% assign de = post.doc_element | plus: 0 %}
+  
+  {% if post.chapter == weight %}
+   
   <div class="post_info">
-
     <li>
-         {{post.doc_element}} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+         {{chapter}}.{{post.doc_element}} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
          <span>( {{post.editor}} )</span>
     </li>
     </div>
