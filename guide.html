@@ -22,8 +22,10 @@ permalink: /guide.html
 {% for weight in (1..14) %}
 <h3>Chapter {{weight}}</h3>
 <ul class="posts">
-  {% for post in site.tags.guide | sort: "doc_element" %}
-
+  {% assign doc_array = null %}
+  {% for post in site.tags.guide %}
+  {% assign chapter = post.chapter | plus: 0 %}
+ 
  {% if post.chapter == weight %} 
 
   <div class="post_info">
