@@ -23,7 +23,7 @@ permalink: /guide.html
 <h3>Chapter {{weight}}</h3>
 <ul class="posts">
   {% assign doc_array = null %}
-  {% for post in site.tags.guide | sort: "date" %}
+  {% for post in site.tags.guide | sort: "doc_element" %}
   
   {% assign chapter = post.chapter | plus: 0 %}
   {% assign de = post.doc_element | plus: 0 %}
