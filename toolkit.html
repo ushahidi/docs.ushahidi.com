@@ -1,24 +1,17 @@
 ---
 layout: page
-<<<<<<< Local Changes
-title: Guide
-permalink: /guide.html
-=======
-title: Guide
+title: Toolkit
 permalink: /toolkit.html
->>>>>>> External Changes
-
 ---
 
 The homepage for the Toolkit.
 
 <ul class="posts">
 {% for post in site.tags.toolkit %}
-
   <div class="post_info">
     <li>
-         <a href="{{ post.url }}">{{ post.title }}</a>
-         <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>({{ post.date | date:"%Y-%m-%d" }})</span>
     </li>
     </div>
   {% endfor %}
