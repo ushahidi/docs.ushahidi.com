@@ -21,10 +21,13 @@ What kind of staffing is necessary to collect, cluster, deduplicate, translate, 
 
 Planning roles and responsibilities for your project will depend on the size of your project.
 - large - Planning a country-wide project, one that involves many partners, or will be collecting large amounts of information. Examples- Crisis Mapping, Haiti, Libya, Election Monitoring, Kenya/Uganda
+>
 
 - medium- Planning a small audience outreach program to collect and share with a single, specific community- Unsung Peace Heroes/Building Bridges (needs new exmples)
 
 - small - Short-term deployment with one to three volunteers. Lower targets for volume and outreach. (needs new examples)
+>“Keep in mind that if your project is small you don’t necessarily need one person for each  task or role, but you can just decide to have few people covering all the tasks. Also keep in mind that these duties may switch throughout the initiative. The Core management team must be flexible and team player- Anahi
+
 
 ### Partnerships and Staffing
 Consider early having a workshop with your partners and audience to agree upon roles and responsibilities for your project. Staffing as a network rather than a hierarchy.
@@ -47,12 +50,9 @@ What roles are typically hired to organize and manage staff, perform data collec
 - Emergency Response Coordinator - For Crisis related Projects: Responsible with a team to constantly monitor and process reports to identify emergencies and to provide information to responders. Communicates closely with the project manager or core team.
 
 
-
-
-
-
-
-
+Funder
+Media Manager
+Overall Project Manager
 
 
 ### Hiring
@@ -62,3 +62,10 @@ What does a typical hiring process look like, when new roles must be secured?
 ### Training
 
 What kind of training should each role type receive to do their work?
+
+---
+### Resources/Quotes to integrate
+Anahi Ayala Iacucci MODULE-
+(TIPS) The emergency Unit is something you need when you are working on projects where you may have very urgent information coming in, that needs to be processed immediately. In this case you want to have a team of people that is ready to map and approve the reports as soon as the information comes in and channel them directly to responders if appropriate.
+
+(Anahi Ayala Iacucci) If you are an NGO almost all of the figures here may be already existing in the overall structure of the organization, and the same if you are an international/national organization.
