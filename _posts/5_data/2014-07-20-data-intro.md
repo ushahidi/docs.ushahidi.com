@@ -4,11 +4,11 @@ chapter: 5
 doc_element: 1
 title: Data Collection Design
 date: 2014-07-20
-published: true 
+published: true
 tags:
   - guide
   - toolkit
-editor: JenniferChan7
+editor: jcrowley
 ---
 
 ## Data Model and Data Collection Methodology
@@ -20,8 +20,7 @@ editor: JenniferChan7
 
 ---
 
-Intro to thinking about data. 
+Intro to thinking about data.
 jcrowley to start draft. jchan to continue
-think linkage between crowdsourcing and 
-data pipeline: school of data. 
-
+think linkage between crowdsourcing and
+data pipeline: school of data.
