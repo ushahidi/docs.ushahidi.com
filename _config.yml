@@ -2,8 +2,8 @@
 title: Ushahidi v3.0 Docs
 email: your-email@domain.com
 description: "Ushahidi docs for practices and tools around v3 Ushahidi platform"
-baseurl: "/docs.ushahidi.com/"
-url: "http://http://github.ushahidi.org//"
+baseurl: ""
+url: "http://docs.ushahidi.org/"
 
 # Build settings
 markdown: kramdown
