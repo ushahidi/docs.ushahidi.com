@@ -1,43 +1,81 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
 
   {% include head.html %}
 
-    <body>
-	<div class="app-layout">
-		<div class="content-wrapper js-content-wrapper">
+<body class="has-fixed-bottom">
 
-    {% include header.html %}
+    <header class="header header-full overlay">
+    <div class="container">
+        <div class="parallax">
+            <div class="nav-icon nav-icon-js">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        <h1 class="beta">Ushahidi Documentation</h1>
+        <p class="header-description">New Guide to version 3</p>
 
-	<section id="main-region" role="main"><div><div class="row">
-		
-		{% include actionsbar.html %}
 
-		<!-- left sidebar -->
-		<div class="list-view-wrapper">
+    </div>
+    <div class="hero-image">
+        <img src="{{ "/assets/img/header-bk.jpg" | prepend: site.baseurl }}" />
+    </div>
+</header>
+
+    
+    <div class="wrapper has-full-header">
+
+        <div class="navigation">
+    <div class="nav-icon nav-icon-js open">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <ul class="main-nav">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about/">About</a></li>
+		<li><a href="/guide/0_intro.html">Introduction</a></li>
+		<!--
+		<li><a href="">1. </a></li>
+		<li><a href="">2. </a></li>
+		<li><a href="">3. </a></li>
+		<li><a href="">4. </a></li>
+		<li><a href="">5. </a></li>
+		<li><a href="">6. </a></li>
+		<li><a href="">7. </a></li>
+		<li><a href="">8. </a></li>
+		<li><a href="">9. </a></li>
+		-->
+
+    </ul>
+
+</div>
 
 
-			<!-- form -->
-			<div class="form-attributes">
-				{{content}}
-			</div>
+        <div class="page-content">
+        
+            <div class="main-col">
+                
 
-		</div><!-- end list-view-wrapper -->
 
-	</div> <!-- end .row -->
-	</div></section>
+				{{ content }}
+
+            </div><!--end main col-->
+
+        </div> <!--end layout a-->
+
+    </div>
+
 
     {% include footer.html %}
 
-	</div>
-	</div><!-- end app layout -->
-    </body>
+
+</body>
+
 </html>

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>The Ushahidi Platform Pattern Library</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/ico" href="../../assets/favicon.ico" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900,400italic,900italic' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="alternate stylesheet" type="text/css" title="rtl" href="../../css/rtl-style.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</head>
+
+
+<body class="pl">
+
+<div class="wrapper">
+
+    <header class="pl-page-header">
+    <h3>
+        <a href="../../../index.html">
+            <img src="../../img/ushahidi-logo.svg" alt="">
+            Ushahidi Platform Pattern Library
+        </a>
+    </h3>
+    <nav class="pl-nav">
+        <ul>
+            <li ><a href="../1_basics/">Basics</a></li>
+            <li ><a href="../2_fragments/">Fragments</a></li>
+            <li class="active"><a href="../3_modules/">Modules</a></li>
+            <li ><a href="../4_blocks/">Blocks</a></li>
+            <li ><a href="../5_layouts/">Layouts</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <nav class="pl-jump-nav">
+        <ul>
+            <li><a href="#pl-pattern-list-view-controls">List &amp; View Controls</a></li>
+            <li><a href="#pl-pattern-post-summary">Post Summary</a></li>
+            <li><a href="#pl-pattern-post-listing">Post Listing</a></li>
+            <li><a href="#pl-pattern-dashboard-listing">Dashboard Listing</a></li>
+            <li><a href="#pl-pattern-post-popup">Post Pop-up</a></li>
+            <li><a href="#pl-pattern-stage-list">Stage List</a></li>
+        </ul>
+
+        <ul class="pl-read-direction-nav">
+    <span class="delta-alt">Reading Direction </span>
+    <li class="hidden">
+        <a class="remove-rtl" href="#" onclick="setActiveStyleSheet('default'); return false;">
+            <i class="fa fa-long-arrow-left"></i>
+        </a>
+    </li>
+    <li>
+        <a class="add-rtl" href="#" onclick="setActiveStyleSheet('rtl'); return false;">
+            <i class="fa fa-long-arrow-right"></i>
+        </a>
+    </li>
+</ul>
+
+    </nav>
+
+    <section class="pl-pattern" id="pl-pattern-list-view-controls">
+        <div class="pl-pattern-description">
+            <h2>
+                List &amp; View Controls
+            </h2>
+            <div class="pl-divider"></div>
+        </div>
+        <div class="container">
+            <div class="pl-sub-pattern">
+                <h4>Tabs &amp; Filter</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="tabs-with-filter">
+    <div class="tabs">
+        <nav class="tabs-menu">
+
+            <label class="delta-alt">View </label>
+            <button type="button" class="button-toggle tabs-menu-button-js">
+            </button>
+            <span id="tabs-menu-selection" class="tabs-menu-selection">List</span>
+
+            <ul class="tabs-menu-list">
+                <li class="active">List</li>
+                <li>Map</li>
+                <li>Photos</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="filters">
+        <div class="filters-wrapper">
+            <label class="delta-alt">Filters</label>
+            <button type="button" class="button-toggle filter-button-js">
+            </button>
+        </div>
+        <div class="filters-container">
+            <div class="tabs tabs-full-width">
+                <nav class="tabs-menu">
+                    <ul>
+                        <li class="active"><a href="#tab-1">Categories</a></li>
+                        <li><a href="#tab-2">Sets</a></li>
+                        <li><a href="#tab-3">More</a></li>
+                    </ul>
+                </nav>
+
+                <div id="tab-1" class="tab-content active">
+                    <form action="" method="get">
+                        <input type="checkbox" name="show-all" value="Show All Categories"> Show All Categories<br>
+                        <input type="checkbox" name="category1" value="Category1" checked="checked">	<i class="fa fa-circle" style="color: #da60a2;"> &nbsp;</i> Accident<br>
+                        <input type="checkbox" name="category2" value="Category2">
+                        <i class="fa fa-circle" style="color: #679a63;"> &nbsp;</i> Safe Location<br>
+                        <input type="checkbox" name="category3" value="Category3">
+                        <i class="fa fa-circle" style="color: #9a4126;"> &nbsp;</i> Hospital Status<br>
+                    </form>
+                </div>
+                <div id="tab-2" class="tab-content">
+                    This is the Sets tab.
+                </div>
+                <div id="tab-3" class="tab-content">
+                    <label for="keyword" class="delta-alt">Keyword</label>
+                    <input type="text" name="keyword" placeholder="keyword">
+
+                    <div class="filter-start-date">
+                        <label for="start" class="delta-alt">Start Date</label>
+                        <input type="text" name="start">
+                    </div>
+                    <div class="filter-end-date">
+                        <label for="end" class="delta-alt">End Date</label>
+                        <input type="text" name="end">
+                    </div>
+
+                    <label for="location" class="delta-alt">Location</label>
+                    <input type="text" name="location" placeholder="select a location">
+                    <select>
+                        <option selected>within 1 km</option>
+                        <option>within 10 km</option>
+                        <option>within 50 km</option>
+                        <option>within 100 km</option>
+                        <option>within 500 km</option>
+                    </select>
+                    <div class="filter-actions">
+                        <a href="" class="cta">Clear Fields</a>
+                        <input class="apply-filter-button button-primary" type="button" name="apply-filter-button" value="Apply" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--end view with filter-->
+                </div> <!--end markup-->
+            </div><!--end sub pattern-->
+            <div class="pl-sub-pattern">
+                <h4>Post List Actions</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="post-list-actions">
+    <a href="" class="cta">Select All</a>
+    <div class="bulk-actions">
+        <button type="button" class="button-secondary disabled dropdown">
+            Mark As
+        </button>
+        <button type="button" class="button-secondary alt icon-only trash">
+        </button>
+    </div>
+</div><!--post-list-actions-->
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+        </div>
+    </section>
+
+    <section class="pl-pattern" id="pl-pattern-post-summary">
+        <div class="pl-pattern-description">
+            <h2>
+                Post Summary
+            </h2>
+            <div class="pl-divider"></div>
+        </div>
+        <div class="container">
+            <div class="pl-sub-pattern">
+                <h4>Post Summary, without image</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="post-summary">
+    <span class="meta-data"><span class="date">January 10, 2015</span>10AM, via SMS</span>
+    <ul class="categories-list-inline">
+        <li class="category"><i class="fa fa-circle" style="color: #da60a2;"></i>Accident</li>
+        <li class="category"><i class="fa fa-circle" style="color: #679a63;"></i>Safe Location</li>
+    </ul>
+    <a href="">
+        <h3>Title of post is here It can get pretty long and break into two lines</h3>
+    </a>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempolabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p>
+        <a href="">10 comments</a>
+    <p>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+            <div class="pl-sub-pattern">
+                <h4>Post Summary, with image</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="post-summary has-img">
+    <span class="meta-data"><span class="date">January 10, 2015</span>10AM, via SMS</span>
+    <ul class="categories-list-inline">
+        <li class="category"><i class="fa fa-circle" style="color: #da60a2;"></i>Accident</li>
+        <li class="category"><i class="fa fa-circle" style="color: #679a63;"></i>Safe Location</li>
+    </ul>
+    <a href="">
+        <div class="post-img">
+            <img src="http://placehold.it/600x600" alt="">
+        </div>
+        <h3>Title of post is here It can get pretty long and break into two lines</h3>
+    </a>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempolabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerclaboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p>
+        <a href="">10 comments</a>
+    <p>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+        </div>
+    </section>
+
+    <section class="pl-pattern" id="pl-pattern-post-listing">
+        <div class="pl-pattern-description">
+            <h2>
+                Post Listing
+            </h2>
+            <div class="pl-divider"></div>
+        </div>
+        <div class="container">
+            <div class="pl-sub-pattern">
+                <h4>Post Listing, with image</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="single-post-listing">
+    <div class="select-post">
+        <input id="checkbox1" type="checkbox">
+    </div>
+    <div class="post-summary has-img">
+        <span class="meta-data"><span class="date">January 10, 2015</span>10AM, via SMS</span>
+        <ul class="categories-list-inline">
+            <li class="category"><i class="fa fa-circle" style="color: #da60a2;"></i>Accident</li>
+            <li class="category"><i class="fa fa-circle" style="color: #679a63;"></i>Safe Location</li>
+        </ul>
+        <a href="">
+            <div class="post-img">
+                <img src="http://placehold.it/600x600" alt="">
+            </div>
+            <h3>This post has an image</h3>
+        </a>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempolabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerclaboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p>
+            <a href="">10 comments</a>
+        </p>
+    </div>
+
+    <div class="stage-and-actions">
+        <div class="stage">
+            <h4 class="delta-alt">
+                Stage
+            </h4>
+            <p>Translation <a href="" class="cta">Update</a></p>
+        </div>
+        <div class="actions-stacked">
+    <button type="button" class="button-secondary dropdown toggle-js hide-when-large">
+        <span>Options</span>
+    </button>
+</div>
+<div class="toggle-content">
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <button type="button" class="button-secondary edit">
+                <a href="#!">Edit</a>
+            </button>
+        </li>
+        <li>
+            <button type="button" class="button-secondary dropdown toggle-js">
+                <a href="#!">Add to Set</a>
+            </button>
+            <div class="toggle-content toggle-content-secondary">
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#!">Set #1</a></li>
+                    <li><a href="#!">Set #2</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+ 
+
+    </div>
+</div> <!--single post listing-->
+
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+            <div class="pl-sub-pattern">
+                <h4>Post Listing, without image</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="single-post-listing">
+    <div class="select-post">
+        <input id="checkbox1" type="checkbox">
+    </div>
+    <div class="post-summary">
+        <span class="meta-data"><span class="date">January 10, 2015</span>10AM, via SMS</span>
+        <ul class="categories-list-inline">
+            <li class="category"><i class="fa fa-circle" style="color: #da60a2;"></i>Accident</li>
+            <li class="category"><i class="fa fa-circle" style="color: #679a63;"></i>Safe Location</li>
+        </ul>
+        <a href="">
+            <h3>This post doesn't have an image, and that's okay!</h3>
+        </a>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempolabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerclaboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p>
+            <a href="">10 comments</a>
+        </p>
+    </div>
+
+    <div class="stage-and-actions">
+        <div class="stage">
+            <h4 class="delta-alt">
+                Stage
+            </h4>
+            <p>Translation <a href="" class="cta">Update</a></p>
+        </div>
+        <div class="actions-stacked">
+    <button type="button" class="button-secondary dropdown toggle-js hide-when-large">
+        <span>Options</span>
+    </button>
+</div>
+<div class="toggle-content">
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <button type="button" class="button-secondary edit">
+                <a href="#!">Edit</a>
+            </button>
+        </li>
+        <li>
+            <button type="button" class="button-secondary dropdown toggle-js">
+                <a href="#!">Add to Set</a>
+            </button>
+            <div class="toggle-content toggle-content-secondary">
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#!">Set #1</a></li>
+                    <li><a href="#!">Set #2</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+ 
+    </div>
+
+</div> <!--single post listing-->
+
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+        </div>
+    </section>
+
+<section class="pl-pattern" id="pl-pattern-dashboard-listing">
+        <div class="pl-pattern-description">
+            <h2>
+                Dashboard Listings
+            </h2>
+            <div class="pl-divider"></div>
+        </div>
+        <div class="container">
+            <div class="pl-sub-pattern">
+                <h4>New Post</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="dashboard-listing">
+    <div class="meta-and-status">
+        <span class="meta-data"><span class="date">January 10, 2015</span>10AM</span>
+        <span class="dashboard-status">New Post</span>
+    </div>
+    <div class="listing-and-credit">
+        <div class="listing-summary">
+            <h3>
+                <a href="">Bus carring Shiite pilgrims bombed</a>
+            </h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae...
+            </p>
+        </div>
+        <div class="user-credit">
+            <a href="">
+                <img src="http://placehold.it/100x100" class="circular">
+                <p class="name">David Kobia</p>
+            </a>
+        </div>
+    </div>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+            <div class="pl-sub-pattern">
+                <h4>Updated Set</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="dashboard-listing">
+    <div class="meta-and-status">
+        <span class="meta-data"><span class="date">January 10, 2015</span>10AM</span>
+        <span class="dashboard-status">Updated Set</span>
+    </div>
+    <div class="listing-and-credit">
+        <div class="listing-summary">
+            <h3>
+                <a href="">Explosions in Northeast Aleppo</a>
+            </h3>
+            <h6 class="delta-alt filter">Smart Set</h6>
+            <p>
+                Lorem ipsum dolor sit amet, consectur adipiscing elit.
+            </p>
+            <p>
+                <em>Updates to set:</em>
+            </p>
+            <ul class="bullets">
+                <li>Category "explosions" added to filter</li>
+                <li>Name changed from "Attacks in Northeast Aleppo"</li>
+            </ul>
+        </div>
+        <div class="user-credit">
+            <a href="">
+                <img src="http://placehold.it/100x100" class="circular">
+                <p class="name">David Kobia</p>
+            </a>
+        </div>
+    </div>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+            <div class="pl-sub-pattern">
+                <h4>New Comment</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="dashboard-listing">
+    <div class="meta-and-status">
+        <span class="meta-data"><span class="date">January 10, 2015</span>10AM</span>
+        <span class="dashboard-status">Comment</span>
+    </div>
+    <div class="listing-and-credit">
+        <div class="listing-summary">
+            <p>
+                On <a href="">Unstable building due to explosion next to road</a>:
+            </p>
+            <blockquote>
+                Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+            </blockquote>
+        </div>
+        <div class="user-credit">
+            <a href="">
+                <img src="http://placehold.it/100x100" class="circular">
+                <p class="name">David Kobia</p>
+            </a>
+        </div>
+    </div>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+        </div>
+    </section>
+
+    <section class="pl-pattern" id="pl-pattern-post-popup">
+        <div class="pl-pattern-description">
+            <h2>
+                Post Pop-up
+            </h2>
+            <div class="pl-divider"></div>
+        </div>
+        <div class="container">
+            <div class="pl-sub-pattern">
+                <h4>Post Pop-up, no image</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="post-popup">
+    <span class="meta-data"><span class="date">January 10, 2015</span>10AM, via SMS</span>
+    <h3 class="gamma"><a href="">Unstable building due to explosion next to road</a></h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...
+    </p>
+    <div class="actions-inline">
+        <button type="button" class="button-secondary dropdown toggle-js hide-when-small">
+            <span>Options</span>
+        </button>
+    </div>
+    <div class="toggle-content">
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <button type="button" class="button-secondary edit">
+                    <a href="#!">Edit</a>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="button-secondary dropdown toggle-js">
+                    <a href="#!">Add to Set</a>
+                </button>
+                <div class="toggle-content toggle-content-secondary">
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#!">Set #1</a></li>
+                        <li><a href="#!">Set #2</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+            <div class="pl-sub-pattern">
+                <h4>Post Pop-up, with image</h4>
+                <div class="pl-sub-pattern-markup">
+<div class="post-popup has-image">
+    <span class="meta-data"><span class="date">January 10, 2015</span>10AM, via SMS</span>
+    <h3 class="gamma"><a href="">Unstable building due to explosion next to road</a></h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...
+    </p>
+    <div class="actions-inline">
+        <button type="button" class="button-secondary dropdown toggle-js hide-when-small">
+            <span>Options</span>
+        </button>
+    </div>
+    <div class="toggle-content">
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <button type="button" class="button-secondary edit">
+                    <a href="#!">Edit</a>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="button-secondary dropdown toggle-js">
+                    <a href="#!">Add to Set</a>
+                </button>
+                <div class="toggle-content toggle-content-secondary">
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#!">Set #1</a></li>
+                        <li><a href="#!">Set #2</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <img src="https://photos.travelblog.org/Photos/11053/262872/f/2165432-Deserted-main-road-of-Quneitra-Syria-1.jpg">
+    </div>
+</div>
+                </div><!--end markup-->
+            </div><!--end sub pattern-->
+        </div>
+    </section>
+
+        <section class="pl-pattern" id="pl-pattern-stage-list">
+        <div class="pl-pattern-description">
+            <h2>
+                Stage List
+            </h2>
+            <div class="pl-divider"></div>
+        </div>
+        <div class="container">
+            <div class="pl-sub-pattern">
+                <h4>Stage List in sidebar <a href="../5_layouts/post-detail.html">example</a></h4>
+                <div class="pl-sub-pattern-markup">
+<div class="stage-list">
+    <h4 class="delta-alt">
+        This Post's Stages
+    </h4>
+    <ul>
+        <li>
+            <a href="">
+                <h6 class="complete">Structure</h6>
+                <p class="small">
+                    The green check means that this stage has been completed.
+                </p>
+            </a>
+        </li>
+        <li class="active">
+            <a href="">
+                <h6>Verification</h6>
+                <p class="small">
+                    As shown by the arrow, this is the stage you're working on now.
+                </p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <h6>Translation</h6>
+                <p class="small">
+                    This stage still needs to be completed.
+                </p>
+            </a>
+        </li>
+        <li class="disabled">
+            <a href="">
+                <h6>Disabled Stage</h6>
+                <p class="small">
+                    This link is disabled. It's required that you complete the previous stage before moving on to this one.
+                </p>
+            </a>
+        </li>
+    </ul>
+</div>
+                </div><!--end markup-->
+                <p class="alert error">
+                    Small screen version on this still in progress
+                </p>
+            </div><!--end sub pattern-->
+        </div>
+    </section>
+
+</div><!--end wrapper-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="../../js/app.js"/></script>
+
+</body>
+
+</html>

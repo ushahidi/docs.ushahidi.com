@@ -1,49 +1,9 @@
 # Site settings
-title: Ushahidi Guide
-email: bostoncello@gmail.com
+title: Ushahidi v3.0 Docs
+email: your-email@domain.com
 description: "Ushahidi docs for practices and tools around v3 Ushahidi platform"
 baseurl: "/docs.ushahidi.com/"
-url: "http://ushahidi.github.io/"
-twitter_username: jcrowley
-github_username:  ushahidi
-layouts: ./_layouts
-
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "post"
-    values:
-      layout: "post_guide"
+url: "http://http://github.ushahidi.org//"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-paginate: 5
-
-
-# prose.io settings
-prose:
-    rooturl: _posts
-    siteurl: http://ushahidi.github.io/docs.ushahidi.com
-    metadata:
-        _posts:
-          - name: "layout"
-            field:
-              element: "hidden"
-              value: "post_guide"
-          - name: "category"
-            field:
-              element: "multiselect"
-              label: "Category"
-              help: "Categorize this post"
-              options: 
-                  - name: 'Guide'
-                    value: 'guide'
-                  - name: 'Toolkit'
-                    value: 'toolkit'  
-                  - name: 'Quickstart'
-                    value: 'quickstart'
-                  - name: 'Resource'
-                    value: 'resource'         
-              placeholder: 'guide'                   

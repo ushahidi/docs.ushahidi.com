@@ -1,0 +1,146 @@
+/*------------------------------------*\
+$NAVIGATION
+\*------------------------------------*/
+
+.pl-nav {
+    @include clearfix;
+    background: $dark-bg;
+    padding: $base-spacing;
+
+    @include media($small) {
+        padding: $base-spacing 0 0;
+    }
+
+    ul {
+
+        li {
+            color: $white;
+            font-weight: $bold;
+            line-height: 2;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            border-left: 3px solid transparent;
+
+            @include media($small) {
+                border-left: 0;
+            }
+
+            &:last-child {
+                @include clearfix;
+            }
+
+            a {
+                color: $link-color-dark-bg;
+                padding-left: 12px;
+                margin-top: 8px;
+
+                &:hover {
+                    border-color: $white;
+                    color: $white;
+                }
+
+                @include media($small) {
+                    display: block;
+                    float: left;
+                    border-left: 0px;
+                    border-bottom: $blue 0px solid;
+                    padding: 0 ($base-spacing+10px) $base-spacing;
+                }
+            }
+        }
+    }
+
+    .active {
+        border-left: $yellow 3px solid;
+        line-height: 2;
+
+        a {
+            color: $white;
+        }
+
+        &:hover {
+            border-left: $border-color 3px solid;
+        }
+
+        @include media($small) {
+            display: block;
+            float: left;
+            border-left: 0px;
+            border-bottom: $yellow 3px solid;
+
+            &:hover {
+                border-left: 0px;
+            }
+        }
+    }
+}
+
+.pl-jump-nav {
+    @include span-columns(12);
+    background: $white;
+    max-width: $max-width;
+
+    @include media($small) {
+        border-bottom: $base-border;
+    }
+
+    ul {
+        @include span-columns(12);
+        padding: $base-spacing ($base-spacing + 10px);
+
+        @include media($small) {
+            @include span-columns(8);
+        }
+
+        @include media($large) {
+            @include span-columns(9);
+        }
+    }
+
+    li {
+        display: inline;
+        padding-right: 8px;
+        margin-right: 5px;
+        border-right: 3px solid $border-color;
+        line-height: 1.75em;
+
+        &:last-child {
+            border-right: 0px;
+        }
+    }
+}
+
+ul.pl-read-direction-nav {
+    @include span-columns(12);
+    padding: $base-spacing;
+
+    @include media($small) {
+        @include span-columns(4);
+        text-align: right;
+    }
+
+    @include media($large) {
+        @include span-columns(3);
+    }
+
+    li {
+        margin: 0;
+        padding: 0 0 0 10px;
+        border: none;
+
+        a.cta {
+            font-size: 1em;
+        }
+    }
+}
+
+.pl-fixed {
+
+    @include media($tall){
+        position: fixed;
+        top: 0px;
+        margin-top: 0px;
+        /* height: 68px; */
+        z-index: $top;
+    }
+}

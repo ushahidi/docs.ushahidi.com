@@ -1,0 +1,23 @@
+.cards-select {
+    @include outer-container;
+    margin-top: $base-spacing;
+
+    .selection-card {
+        margin-bottom: $sm-spacing;
+
+        @include media($small) {
+            @include span-columns(6);
+            @include omega(2n);
+            margin-bottom: $base-spacing;
+        }
+
+        @include media($large) {
+            @include omega-reset(2n);
+            @include span-columns(4);
+            @include omega(3n);
+        }
+
+    }
+
+}
+

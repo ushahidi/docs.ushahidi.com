@@ -1,0 +1,70 @@
+.pagination, .stepper {
+    padding: $sm-spacing 0;
+
+	li {
+		display: inline-block;
+		float: left;
+		color: $link-color;
+		font-weight: $bold;
+		padding: 0 $sm-spacing;
+		cursor: pointer;
+	}
+
+	.active {
+		color: $base-color;
+		cursor: default;
+
+		&:hover {
+			color: $base-color;
+		}
+
+	}
+
+	li.pg-number {
+        display: none;
+
+        @include media($mobile) {
+            display: inline-block;
+        }
+
+		&:hover {
+			color: $link-hover-color;
+		}
+
+	}
+
+	.prev, .next {
+		border: $base-border;
+		@include border-top-radius($global-radius);
+    	@include border-bottom-radius($global-radius);
+    	color: $highlight;
+    	padding: 10px;
+    	position: relative;
+    	top: -10px;
+        @include transition(0.3s);
+
+    	&:hover{
+    		border: $base-border-hover;
+    	}
+
+	}
+
+	.prev {
+		margin-right: $sm-spacing;
+	}
+
+	.next {
+		margin-left: $sm-spacing;
+	}
+
+}
+
+.pagination {
+    margin: $base-spacing auto;
+    width: 115px;
+
+    @include media($mobile) {
+        width: 258px;
+    }
+
+}

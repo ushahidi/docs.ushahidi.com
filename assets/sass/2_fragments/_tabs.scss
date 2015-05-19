@@ -1,0 +1,210 @@
+.tabs {
+    position: relative;
+
+    .tabs-menu {
+
+        li {
+            display: inline-block;
+            border: $base-border;
+            padding: 8px $sm-spacing;
+            @include transition(0.3s);
+            margin-right: $tiny-spacing;
+            @include border-top-radius($global-radius);
+            @include border-bottom-radius($global-radius);
+            color: $link-color;
+
+            &:hover {
+                cursor: pointer;
+                border: $base-border-hover;
+                color: $link-hover-color;
+            }
+
+            &:active {
+                background: $tab-active-color;
+            }
+
+            &.active {
+                color: $black;
+                background-color: $lt-gray;
+                border: $base-border-dark;
+                position: relative;
+
+                &:before, &:after {
+                    content: ' ';
+                    height: 0;
+                    position: absolute;
+                    width: 0;
+                    border: 10px solid transparent; /* arrow size */
+                }
+
+                &:before {
+                    border-top-color: $lt-gray;  /* arrow color */
+                    position: absolute;
+                    top: 30px;
+                    left: 50%;
+                    margin-left: -10px;
+                    z-index: $bottom + 1;
+                }
+
+                &:after {
+                    border-top-color: $border-color-dark;  /* arrow color */
+                    position: absolute;
+                    top: 31px;
+                    left: 50%;
+                    margin-left: -10px;
+                }
+
+                &:active {
+                    border-color: $dk-gray;
+                }
+
+            }
+
+        }
+
+        label {
+            float: left;
+            margin: $sm-spacing $sm-spacing $sm-spacing 0;
+        }
+
+        .tabs-menu-selection {
+            display: block;
+            float: left;
+            padding: 8px 5px 8px 0;
+
+            @include media($small) {
+                display: none;
+            }
+
+        }
+
+        .tabs-menu-list {
+            display: none;
+            width: 100%;
+            padding: $base-spacing;
+            border-top: 5px solid $black;
+            background: $white;
+            @include box-shadow($top: -3px, $left: 0, $blur: 3px, $spread: 1px, $color: rgba(0,0,0,.1));
+
+            @include media($small) {
+                display: block;
+                position: relative;
+                top: 0;
+                float: none;
+                width: inherit;
+                padding: 0;
+                border: none;
+                background: none;
+                box-shadow: none;
+            }
+
+            &.open {
+                position: absolute;
+                bottom: 52px;
+                display: block;
+                padding: 0;
+
+                @include media($small) {
+                    position: relative;
+                }
+
+                li:hover {
+                    background: $lt-gray;
+                }
+
+            }
+
+            li {
+                display: block;
+                padding: 15px;
+                color: $link-color;
+                border: none;
+                border-radius: 0;
+
+                @include media($small) {
+                    display: inline-block;
+                    padding: 8px $sm-spacing;
+                    margin-right: $tiny-spacing;
+                    border: $base-border;
+                    @include border-top-radius($global-radius);
+                    @include border-bottom-radius($global-radius);
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    border: none;
+
+                    @include media($small) {
+                        border: $base-border-hover;
+                        color: $link-hover-color;
+                    }
+
+                }
+
+                &:active {
+                    background: none;
+
+                    @include media($small) {
+                        background: $tab-active-color;
+                    }
+
+                }
+
+                &.active {
+                    background-color: transparent;
+                    border: none;
+
+                    @include media($small) {
+                        color: $black;
+                        background-color: $lt-gray;
+                        border: $base-border-dark;
+                        position: relative;
+                    }
+
+                    &:before, &:after,
+                    &:before,
+                    &:after {
+                        display: none;
+
+                        @include media($small) {
+                            display: inherit;
+                        }
+
+                    }
+
+                    &:active {
+
+                        @include media($small) {
+                            border-color: $dk-gray;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        button {
+            display: block;
+
+            @include media($small) {
+                display: none;
+            }
+
+        }
+
+    }
+
+    .tab-content {
+        display: none;
+        padding: 30px 0 0;
+
+        &.active {
+            display: block;
+        }
+
+    }
+
+}

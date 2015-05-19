@@ -1,0 +1,120 @@
+/*------------------------------------*\
+$LAYOUT
+\*------------------------------------*/
+
+.wrapper {
+    background-color: $white;
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.container {
+	clear:  both;
+    max-width: 1200px;
+    margin: 0 auto;
+    @include outer-container;
+}
+
+.container-centered {
+	@extend .container;
+	text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.hide-when-small {
+    display: block;
+    position: relative;
+
+    @include media($small) {
+        display: none;
+    }
+
+}
+
+.hide-when-large {
+    display: block;
+    position: relative;
+
+    @include media($large) {
+        display: none;
+    }
+
+}
+
+.hidden-content {
+    display: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.fade-out {
+    opacity: 0 !important;
+}
+
+.fade-in {
+    opacity: 1 !important;
+}
+
+.has-fixed-bottom { //this goes on the body when something gets fixed to the bottom
+    padding-bottom: 72px;
+
+    @include media($small) {
+        padding-bottom: 0;
+    }
+
+}
+
+.fixed-bottom {
+    width: 100%;
+    border-top: $base-border;
+    background: $white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: $sm-spacing;
+
+    @include media($small) {
+        width: auto;
+        border-top: 0px;
+        background: transparent;
+        position: relative;
+        padding: 0;
+    }
+
+    button.button-primary {
+        margin: 0;
+    }
+
+}
+
+.absolute {
+    position: absolute !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.zebra-list { //this is a helper class for lists of gray & white (most list pages)
+    background: $white;
+    border-top: $base-border;
+
+    &:nth-child(odd) {
+        background: $lt-gray-bg;
+    }
+
+    &:last-of-type {
+        border-bottom: $base-border;
+    }
+
+}
+
+.inline {
+    display: inline;
+}
