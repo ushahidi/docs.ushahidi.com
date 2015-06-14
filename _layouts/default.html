@@ -7,51 +7,51 @@
 
   {% include head.html %}
 
-<body class="has-fixed-bottom">
+<body class="">
 
     <header class="header header-full overlay">
-    <div class="container">
-        <div class="parallax">
-            <div class="nav-icon nav-icon-js">
+        <div class="container">
+            <div class="hero-image">
+                <img src="{{ "/assets/img/header-bk.jpg" | prepend: site.baseurl }}" />
+            </div>
+
+            <div class="color-overlay">
+                <div class="parallax">
+                    <div class="nav-icon nav-icon-js">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h1 class="beta">Ushahidi Documentation</h1>
+                    <p class="header-description">New Guide to Ushahidi version 3</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+
+        <nav class="navigation" role="navigation">
+            <div class="nav-icon nav-icon-js open">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-        <h1 class="beta">Ushahidi Documentation</h1>
-        <p class="header-description">New Guide to version 3</p>
+            <ul class="main-nav">
+                {% assign pages = (site.pages | sort: "weight" | where: "hideFromMenu", false) %}
+                {% for p in pages %}
+                    <li>
+                        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                            {{ p.title }}{% if p.subtitle %}: {{ p.subtitle }}{% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
 
 
-    </div>
-    <div class="hero-image">
-        <img src="{{ "/assets/img/header-bk.jpg" | prepend: site.baseurl }}" />
-    </div>
-</header>
-
-
-    <div class="wrapper has-full-header">
-
-        <div class="navigation">
-    <div class="nav-icon nav-icon-js open">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-
-    <ul class="main-nav">
-        {% assign pages = (site.pages | sort: "weight" | where: "hideFromMenu", false) %}
-        {% for p in pages %}
-            <li>
-                <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
-                    {{ p.title }}{% if p.subtitle %}: {{ p.subtitle }}{% endif %}
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
-
-</div>
-
-
-        <div class="page-content">
+        <main class="page-content">
 
             <div class="main-col">
 
@@ -61,7 +61,7 @@
 
             </div><!--end main col-->
 
-        </div> <!--end layout a-->
+        </main> <!--end layout a-->
 
     </div>
 
