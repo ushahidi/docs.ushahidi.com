@@ -27,7 +27,7 @@
     </div>
 </header>
 
-    
+
     <div class="wrapper has-full-header">
 
         <div class="navigation">
@@ -38,30 +38,23 @@
     </div>
 
     <ul class="main-nav">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/about/">About</a></li>
-		<li><a href="/guide/0_intro.html">Introduction</a></li>
-		<!--
-		<li><a href="">1. </a></li>
-		<li><a href="">2. </a></li>
-		<li><a href="">3. </a></li>
-		<li><a href="">4. </a></li>
-		<li><a href="">5. </a></li>
-		<li><a href="">6. </a></li>
-		<li><a href="">7. </a></li>
-		<li><a href="">8. </a></li>
-		<li><a href="">9. </a></li>
-		-->
-
+        {% assign pages = (site.pages | sort: "weight" | where: "hideFromMenu", false) %}
+        {% for p in pages %}
+            <li>
+                <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                    {{ p.title }}{% if p.subtitle %}: {{ p.subtitle }}{% endif %}
+                </a>
+            </li>
+        {% endfor %}
     </ul>
 
 </div>
 
 
         <div class="page-content">
-        
+
             <div class="main-col">
-                
+
 
 
 				{{ content }}

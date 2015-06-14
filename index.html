@@ -1,86 +1,21 @@
 ---
 layout: home
+title: Home
+menu: false
+weight: -1
 ---
 
+{% assign pages = (site.pages | where: "categories", "chapter" | where: "hideFromMenu", false)  %}
 
 <div class="cards-select">
+    {% for p in pages %}
     <div class="selection-card">
-        <a href="guide/0_intro.html">
-            <h3>Introduction</h3>
+        <a href="{{ p.url }}">
+            <h3>{{p.title}}</h3>
             <p>
-                 Introduction to Ushahidi v3.
+                {{p.subtitle}}
             </p>
         </a>
     </div>
-    <div class="selection-card">
-        <a href="guide/1_designing.html">
-            <h3>Chapter 1</h3>
-            <p>
-                 Designing your campaign.
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/2_building.html">
-            <h3>Chapter 2</h3>
-            <p>
-              Building your team
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/3_installing.html">
-            <h3>Chapter 3</h3>
-            <p>
-                 Installing the software.
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/4_configuring.html">
-            <h3>Chapter 4</h3>
-            <p>
-                Configuring the software.
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/5_data.html">
-            <h3>Chapter 5</h3>
-            <p>
-                Data and data models.
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/6_deploying.html">
-            <h3>Chapter 6</h3>
-            <p>
-                Deploying the software
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/7_curating.html">
-            <h3>Chapter 7</h3>
-            <p>
-                Curating your deployment
-            </p>
-        </a>
-    </div>
-    <div class="selection-card">
-        <a href="guide/8_analyzing.html">
-            <h3>Chapter 8</h3>
-            <p>
-                Analyzing and Visualizating your data
-            </p>
-        </a>
-    </div>
-
-
-    
-    
+    {% endfor %}
 </div><!--end cards select-->
-
-
-

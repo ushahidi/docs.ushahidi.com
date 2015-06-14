@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Introduction: Ushahidi as Testimony"
+title:  "Introduction"
+subtitle: "Ushahidi as Testimony"
 date:   2015-03-24 17:31:20
 categories: chapter
+weight: 0
 ---
 
 	“People become the stories they hear and the stories they tell.”

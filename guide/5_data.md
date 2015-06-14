@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Chapter 5: Data"
+title:  "Chapter 5"
+subtitle: "Data & Data Models"
 date:   2015-04-23 22:35:00
 categories: chapter
+weight: 5
 ---
 
 <blockquote>

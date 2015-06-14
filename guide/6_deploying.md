@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Chapter 6: Deploying"
+title:  "Chapter 6"
+subtitle: "Deploying the software"
 date:   2015-04-23 22:53:00
 categories: chapter
+weight: 6
 ---
 
 You’ve prepared the platform. Now comes the part that requires management skills.

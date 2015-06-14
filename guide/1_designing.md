@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Chapter 1: Designing a New Approach"
+title:  "Chapter 1"
+subtitle: "Designing a New Approach"
 date:   2015-03-24 17:31:20
 categories: chapter
+weight: 1
 ---
 
 Chapter 1 Ushahidi v3: designing a new approach

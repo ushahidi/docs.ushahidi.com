@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Chapter 3: Installing the Platform"
+title:  "Chapter 3"
+subtitle: "Installing the Platform"
 date:   2015-04-23 21:28:00
 categories: chapter
+weight: 3
 ---
 
 ## Tech Environment
@@ -249,7 +251,7 @@ http://git-scm.com/download/mac
 #### Setting up MAMP Pro
 
 * GENERAL - no need to change anything here:
- 
+
 * HOSTS
 	* Create a new host by clicking the [+] at bottom left
 	* Give your server a name - in our case (ushahidi.dev)
@@ -263,7 +265,7 @@ http://git-scm.com/download/mac
 * Click on the Databases tab within phpMyAdmin
 * Create an ushahidi database
 
- 
+
 #### Downloading and installing Ushahidi
 
 * Open the 'Terminal' app by going to Applications > Utilities > Terminal
@@ -372,7 +374,7 @@ return array
 Where 'database' is the database name that you chose; 'username' is the user that you set up in phpmyadmin (look at the 'users' tab: my user is root@127.0.0.1) and 'password' is the password that you set up for that phpmyadmin user.
 
 ### Base_url
-Like with Ushahidi v2.x, your baseurl is going to be slightly different to everyone else's.  
+Like with Ushahidi v2.x, your baseurl is going to be slightly different to everyone else's.
 In init.php, for Ushahidi v3 installed at c:\wamp\www\Lamu, it's
 
 ```

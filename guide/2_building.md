@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Chapter 2: Building Your Campaign"
+title:  "Chapter 2"
+subtitle: "Building Your Campaign"
 date:   2015-03-24 17:31:20
 categories: chapter
+weight: 2
 ---
 
 Ushahidi is a tool, not a strategy. It can help you achieve a goal, but only if you have first decided what you want to do. The decision to deploy Ushahidi must be preceded by a larger set of questions about what you want to accomplish. This section will take you through a process of building this strategy and the design of your campaign to reach your goals. While each organization will have its own approach to scoping out a project, one way to explore an Ushahidi deployment is through the following steps:
@@ -261,11 +263,11 @@ Slow Burn - Slow burn deployments continue for weeks to months and evening longe
 Citizens are using the Internet to change their world, to give voice to issues that matter to them. Some do this in conjunction with official media organizations while others engage in their own mission. The power of Ushahidi is that anyone can locate, aggregate and provide a platform to unite many voices, many communication channels. Some examples include of citizen media projects include #OccupyMap
 
 Our partners at Al Jazeera, Guardian, BBC, ABC Queensland, Houston Chronicle, Chicago Sun times and more have elected to engage the citizenry in their official storytelling using these tools. Occupy is an important map as they have used it to create their own community and storyline outside of the mainstream media. Their project is extensive with a global network of occupy mappers. Plus their highly customized platform includes a wiki and other tools to make it the center for all activity. This it is more than a map: it is a communications hub and platform in a starfish manner.
- 
+
 #### Election Monitoring
 
 A set of methods for harnessing citizens to report on actions which impede free and fair elections.
- 
+
 Ushahidi has its roots in election monitoring and has been deployed in a number of countries for that specific purpose. Using crowdsourcing methods harnessing citizens to report on actions which impede free and fair elections. Examples of public crowdsourcing during elections include: India, Mexico, Afghanistan and Lebanon, all in 2009 and Sudan and Togo in 2010. Data collection using trained election monitors, or bounded crowdsourcing can also be done and Ushahidi was used in this way during the November 2009 elections in Namibia and during the 2010 elections in Burundi.
 
 #### Health Mapping

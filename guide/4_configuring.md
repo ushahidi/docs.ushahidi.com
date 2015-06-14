@@ -1,8 +1,10 @@
 ---
 layout: page
-title:  "Chapter 4: Configuring the Platform"
+title:  "Chapter 4"
+subtitle: "Configuring the Platform"
 date:   2015-04-23 22:27:00
 categories: chapter
+weight: 4
 ---
 
 This chapter provides you with a first look at the system that you have just installed. For those who have used v2 for several years, the initial load of v3 might be disorienting. The administrative interface is gone, and the new Views interface requires a little getting used to. Whenever one makes a cumbersome but familiar process easier, some will ask for the old way back. Trust us: after a year of working in the new interface on the development server, it is much easier to have everything in one place.
