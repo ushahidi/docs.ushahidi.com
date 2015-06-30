@@ -7,7 +7,6 @@ categories: chapter
 weight: 1
 ---
 
-Chapter 1 Ushahidi v3: designing a new approach
 When we decided that we would embark on a complete rewrite of the code, we knew that it would be difficult. We also knew that we would get pulled to making some classic mistakes , including getting lured into over-engineering and over-designing the new architecture
 
 

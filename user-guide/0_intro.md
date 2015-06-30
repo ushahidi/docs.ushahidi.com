@@ -7,8 +7,9 @@ categories: chapter
 weight: 0
 ---
 
-	“People become the stories they hear and the stories they tell.”
-	—    Elie Wiesel, Nobel Laureate for Peace
+> “People become the stories they hear and the stories they tell.”
+>
+> —    Elie Wiesel, Nobel Laureate for Peace
 
 Ushahidi was born from calamity. When the 2008 Kenyan elections descended into social conflict, a few of us who came together around an idea. As activists and technologists, we asked: what if we created a platform that would allow Kenyans to report incidents of violence in their neighborhoods? What if this tool harnessed a common technology—the cell phone—so that any anyone could submit a report via text message/SMS? What if we made it possible for everyone to see these reports and develop a consciousness about what was happened to our country?
 
