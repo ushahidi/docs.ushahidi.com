@@ -1,7 +1,7 @@
 # Site settings
-title: Ushahidi v3.0 Docs
-email: your-email@domain.com
-description: "Ushahidi docs for practices and tools around v3 Ushahidi platform"
+title: Ushahidi Platform v3.0 Docs
+email: robbie@ushahidi.com
+description: "Guides and documentation for Ushahidi Platform v3.0"
 baseurl: ""
 url: "http://docs.ushahidi.org/"
 
