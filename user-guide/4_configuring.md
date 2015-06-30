@@ -3,7 +3,7 @@ layout: page
 title:  "Chapter 4"
 subtitle: "Configuring the Platform"
 date:   2015-04-23 22:27:00
-categories: chapter
+categories: user-guide
 weight: 4
 ---
 
@@ -19,31 +19,11 @@ Depending on how you configured the baseurl (see installation), go to the index.
 
 This is now the only url you need to remember; the index.php file is the controller within the new architecture; all pages are accessed via the index.php file, including any static pages (we may want to explain how to set up aliases for various static pages, especially for migrations). See the developer’s annex for a deeper explanation.
 
-## Activating Features
-
-The first screen that appears will ask the administrator to activate several features in the v3 platform with simple checkboxes.
-
-(screenshot)
-
-* Media Uploads
-* Sets UI
-* API Explorer
-* Data Provider Configuration
-* Post Export
-* Form Wizard
-
-For now, accept these features and click submit. We will explain how to reconfigure them to meet your needs later in this chapter.
-
 ## First Look
 
-The installation will open to the initial map view with several default reports. You can see that there are two tabs across the top: Views and Sets. The Views show you all data; Sets show you filtered visualizations of data.
+The installation will open to the initial map view with several default reports. You can see that there are tabs across the top: Map, List, Graph and Timeline. These views give you different ways to view posts in your deployment.
 
-Click on Views. A submenu will appear with Full, Map, Lists, and Media.
-
-corresponding to four different ways to view these sample reports. Click on each tab.
-
-* Map
-* List
+In the menu you can also see: Saved Searches and Collections. Each of these will show you a pre defined group of posts. Saved searches - as one expects - show posts based on some collection of filters or search tersm; Collections show a manually curated set of posts. Will dig into both of these features later on in the guide
 
 ### First Steps
 
@@ -55,15 +35,6 @@ First things to do in v3
 
 #### Site Owner Name
 
-##### Features
-
-Media Uploads
-Sets UI
-API Explorer
-Data Provider Configuration
-Post Export
-Form Wizard
-
 ### Managing Users
 
 An intro to users in Ushahidi. Roles and permissions. Views and exports limited by permissions, etc.
@@ -71,6 +42,18 @@ An intro to users in Ushahidi. Roles and permissions. Views and exports limited 
 #### Roles and Permissions in v3
 
 How roles and permissions work within the v3 platform.
+
+### Post Type settings
+
+What is a post type?
+
+#### Adding a new post type
+
+#### Post type permissions
+
+#### Adding steps
+
+#### Adding custom fields
 
 #### Managing Users Interface
 
@@ -93,14 +76,12 @@ Users might also be Contacts who are sending messages via social media or email 
 
 #### Changing Roles
 
-####Deleting Users
+#### Deleting Users
 
-### Map Settings
+### View Settings
 
-#### Default Location
+#### Map
 
-#### Cluster Reports
+#### List
 
-#### Map Base Layer
-
-#### Default Zoom Level
+etc

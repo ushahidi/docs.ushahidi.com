@@ -3,7 +3,7 @@ layout: page
 title:  "Chapter 1"
 subtitle: "Designing a New Approach"
 date:   2015-03-24 17:31:20
-categories: chapter
+categories: user-guide
 weight: 1
 ---
 

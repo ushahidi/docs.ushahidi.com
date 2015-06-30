@@ -3,16 +3,13 @@ layout: page
 title:  "Chapter 5"
 subtitle: "Data & Data Models"
 date:   2015-04-23 22:35:00
-categories: chapter
+categories: user-guide
 weight: 5
 ---
 
-<blockquote>
-
-The word DATA derives from the Latin for “to give”; thus, data are really GIVEN FACTS, from which additional facts can be inferred… A given fact in turn corresponds to what logicians call a TRUE PROPOSITION; for example, the statement “Supplier S1 is located in London” might be called a true proposition. It follows that a database is really A COLLECTION OF SUCH TRUE PROPOSITIONS.
-C.J. Date, An Introduction to Database Systems
-
-</blockquote>
+> The word DATA derives from the Latin for “to give”; thus, data are really GIVEN FACTS, from which additional facts can be inferred… A given fact in turn corresponds to what logicians call a TRUE PROPOSITION; for example, the statement “Supplier S1 is located in London” might be called a true proposition. It follows that a database is really A COLLECTION OF SUCH TRUE PROPOSITIONS.
+>
+> C.J. Date, An Introduction to Database Systems
 
 Ushahidi is designed to allow many sources to contribute facts to a central dataset, from which analysts might infer additional facts. For example, many sensors reporting rising water in one village will allow analysts to infer that water is going to rise downstream. Many people reporting fraud at a particular polling site will allow analysts to infer that something is amiss; they may then choose to correlate voting patterns with the allegations of fraud.
 

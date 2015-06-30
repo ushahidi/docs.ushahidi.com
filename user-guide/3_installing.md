@@ -3,7 +3,7 @@ layout: page
 title:  "Chapter 3"
 subtitle: "Installing the Platform"
 date:   2015-04-23 21:28:00
-categories: chapter
+categories: user-guide
 weight: 3
 ---
 

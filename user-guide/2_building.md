@@ -3,7 +3,7 @@ layout: page
 title:  "Chapter 2"
 subtitle: "Building Your Campaign"
 date:   2015-03-24 17:31:20
-categories: chapter
+categories: user-guide
 weight: 2
 ---
 

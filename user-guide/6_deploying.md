@@ -3,7 +3,7 @@ layout: page
 title:  "Chapter 6"
 subtitle: "Deploying the software"
 date:   2015-04-23 22:53:00
-categories: chapter
+categories: user-guide
 weight: 6
 ---
 

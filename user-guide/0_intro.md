@@ -3,7 +3,7 @@ layout: page
 title:  "Introduction"
 subtitle: "Ushahidi as Testimony"
 date:   2015-03-24 17:31:20
-categories: chapter
+categories: user-guide
 weight: 0
 ---
 
