@@ -30,8 +30,8 @@ community.
 
 ### Why rebuild?
 
-- Fragile tech. Many bugs and an obselete tech stack.. Ushahidi 2.x has been hard to maintain, some of the early foundation work was a bit shaky, and has thrown up many bugs. This is made worse because the framework we built on is now deprecated and unmaintained
-- The use case has changed (Grown!) - Ushahidi 2.x was built to map reports of violence in Kenya after the post-election fallout at the beginning of 2008. Now Ushahidi is used to monitor elections, track pollution, report corruption, manage disaster response/recovery and much more.
+* Fragile tech. Many bugs and an obselete tech stack.. Ushahidi 2.x has been hard to maintain, some of the early foundation work was a bit shaky, and has thrown up many bugs. This is made worse because the framework we built on is now deprecated and unmaintained
+* The use case has changed (Grown!) - Ushahidi 2.x was built to map reports of violence in Kenya after the post-election fallout at the beginning of 2008. Now Ushahidi is used to monitor elections, track pollution, report corruption, manage disaster response/recovery and much more.
 
 Uses have grown beyond just a simple crisis mapping tool to a full fledged
 management platform for crowdsourced data. With this in mind, we decided to
@@ -63,14 +63,12 @@ If you want to try it out we release betas [on github](http://github.com/ushahid
 
 Yes! Development moves pretty quickly but the tech stack is getting more and more stable. If you're keen to help build something awesome, [Jump on board..](get-involved.html)
 
-**TODO: FIX LINKS**
+## Further Reading
 
-See also:[3.0 Blog posts](http://blog.ushahidi.com/tag/ushahidi-3-0/)
+  * [Getting Involved](/get-involved.html)
+  * [Installing Ushahidi 3.x](/getting-started.md)
+  * [Developer Guide](/developer-guide/)
+  * [Downloads](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+Downloads)
+  * [Research](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+Research)
+  * [3.0 Blog posts](http://blog.ushahidi.com/tag/ushahidi-3-0/)
 
-  * [Ushahidi v3.x - Getting Involved](/display/WIKI/Ushahidi+v3.x+-+Getting+Involved)
-  * [Installing Ushahidi 3.x](/display/WIKI/Installing+Ushahidi+3.x)
-  * [Ushahidi v3.x - Developer Guide](/display/WIKI/Ushahidi+v3.x+-+Developer+Guide)
-  * [Ushahidi v3.x Downloads](/display/WIKI/Ushahidi+v3.x+Downloads)
-  * [Ushahidi v3.X FAQ](/display/WIKI/Ushahidi+v3.X+FAQ)
-  * [Ushahidi v3.x Research](/display/WIKI/Ushahidi+v3.x+Research)
-  * [Archive](/display/WIKI/Archive)
