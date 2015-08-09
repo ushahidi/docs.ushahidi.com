@@ -3,7 +3,7 @@ layout: page
 title:  "User Guide"
 subtitle: "A guide for deployers"
 date:   2015-04-23 22:53:00
-categories: top
+#categories: top
 weight: 2
 ---
 
