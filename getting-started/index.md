@@ -12,11 +12,11 @@ Ushahidi Platform can be installed on several operating systems. We have differe
 ### Just trying it out?
 
 * [Installing on Heroku](/getting-started/installing-on-heroku.html)
-* Installing locally (coming soon)
+* [Install with Vagrant + a NodeJS dev server](/getting-started/installing-with-vagrant.html)
 
 ### Installing in production
 
-* Install on Linux
+* [Install on Linux](/getting-started/installing-on-linux.html)
 * Not recommended: Windows or Mac
 
 ### Getting set up for development
