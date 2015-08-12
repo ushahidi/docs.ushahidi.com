@@ -7,9 +7,29 @@ categories: top
 weight: 1
 ---
 
-{% assign pages = (site.pages | where: "categories", "getting-started" | where: "hideFromMenu", false)  %}
+Ushahidi Platform can be installed on several operating systems. We have different instructions depending on what type of user you are:
 
-<div class="cards-select">
+### Just trying it out?
+
+* [Installing on Heroku](/getting-started/installing-on-heroku.html)
+* Installing locally (coming soon)
+
+### Installing in production
+
+* Install on Linux
+* Not recommended: Windows or Mac
+
+### Getting set up for development
+
+* [Install with Vagrant + a NodeJS dev server](/getting-started/installing-with-vagrant.html)
+
+### After install
+
+* ...
+
+{% assign pages = (site.pages | sort: "weight" | where: "categories", "getting-started" | where: "hideFromMenu", false)  %}
+
+<!--<div class="cards-select">
     {% for p in pages %}
     <div class="selection-card">
         <a href="{{ p.url }}">
@@ -20,4 +40,4 @@ weight: 1
         </a>
     </div>
     {% endfor %}
-</div><!--end cards select-->
+</div>--><!--end cards select-->
