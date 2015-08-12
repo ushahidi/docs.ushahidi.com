@@ -83,10 +83,14 @@ npm takes care of the rest of our dependencies.
 
 1. Clone the repo
 
-    ```git clone https://github.com/ushahidi/platform-client.git```
+    ```
+    git clone https://github.com/ushahidi/platform-client.git
+    ```
 2. Navigate to project root
 
-    ```cd platform-client```
+    ```
+    cd platform-client
+    ```
 3. Install Build Requirements
 
     ```

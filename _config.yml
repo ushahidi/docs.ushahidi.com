@@ -6,4 +6,8 @@ baseurl: ""
 url: "http://docs.ushahidi.org/"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+
+redcarpet:
+  extensions: ["tables", "fenced_code_blocks"]
