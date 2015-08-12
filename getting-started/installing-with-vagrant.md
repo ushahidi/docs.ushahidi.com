@@ -47,9 +47,12 @@ Then you can bring up the vagrant server and provision it:
 ```
 
 This should set up a server, and install all the dependencies too.
-Go to (192.168.33.110)[http://192.168.33.110] to check the API is up and running. You should see some JSON with an API version, endpoints and user info.
 
-> The vagrant set up uses a 64 bit VM so you may need to enable 64 bit virtualization on your host machine.
+Go to [192.168.33.110](http://192.168.33.110) to check the API is up and running. You should see some JSON with an API version, endpoints and user info.
+
+#### Caveats:
+ - The vagrant set up uses a 64 bit VM so you may need to enable 64 bit virtualization on your host machine.
+ - Vagrant on linux has been known to have issues if you're running from within an encryptfs partition. If possible clone the code outside of your encrypted partitions.
 
 ### Logging in the first time
 
