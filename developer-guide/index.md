@@ -19,8 +19,7 @@ geo-locate it, visualise it and publish it on a map.
 Ushahidi Platform V3 is a rebuild from the ground up -- not only the code but
 the way in which we think about users interacting with mobile and social data.
 
-The [ushahidi platform stack
-](https://github.com/ushahidi/platform/blob/master/LICENSE.md)is:
+The ushahidi platform stack is:
 
   * Back-end: [Linux](http://en.wikipedia.org/wiki/Linux), [PHP](https://php.net), [Apache](http://httpd.apache.org/)/[Nginx](http://wiki.nginx.org/Main), [MySQL](http://www.mysql.com) or [PostgreSQL](http://www.postgresql.org)
 
