@@ -1,0 +1,361 @@
+.docs {
+  color: #1E232A;
+  background: #FBF9F6; }
+  @media screen and (min-width: 48em) and (min-height: 650px) {
+    .docs {
+      margin-top: 80px; } }
+  .docs h1.alt {
+    text-align: center;
+    font-size: 2.125em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0 10px; }
+  @media screen and (min-width: 30em) {
+    .docs h1.alt {
+      font-size: 2.75em; } }
+  .docs h1 {
+    font-weight: 800; }
+  .docs h1 small {
+    display: block;
+    font-weight: 400;
+    font-size: 0.55em;
+    padding: 10px 0;
+    color: #616467; }
+  @media screen and (min-width: 64em) {
+    .docs .main-col {
+      border-left: 1px solid #EFECE8;
+      padding-left: 40px; } }
+  .docs .post-header {
+    border-bottom: 1px solid #EFECE8;
+    margin-bottom: 18px; }
+  .docs .masthead {
+    background-color: #1E232A;
+    z-index: 999; }
+  .docs .masthead:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0; }
+  .docs .lt-ie8 .masthead {
+    zoom: 1; }
+  @media screen and (min-width: 48em) and (min-height: 650px) {
+    .docs .masthead {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 500;
+      height: 80px; } }
+  .docs .masthead .logo {
+    margin: 0;
+    padding: 10px 0 0; }
+  .docs .masthead .logo a {
+    display: block;
+    width: 170px;
+    height: 60px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-image: url(http://github.ushahidi.org/dotcom-pattern-library/assets/img/ushahidi-wordmark.svg);
+    margin: 0 auto; }
+  @media screen and (min-width: 30.063em) {
+    .docs .masthead .logo a {
+      position: absolute;
+      top: 0;
+      left: 20px;
+      z-index: 4; } }
+  @media screen and (min-width: 48em) {
+    .docs .masthead .logo a {
+      top: 3px;
+      width: 200px;
+      height: 70px; } }
+  .docs .masthead .logo a:hover {
+    opacity: .75; }
+  .docs .masthead.fixed {
+    height: 50px; }
+  .docs .masthead.fixed .logo {
+    padding: 0; }
+  @media screen and (min-width: 48em) {
+    .docs .masthead.fixed .logo a {
+      top: 0;
+      width: 47px;
+      height: 50px; } }
+  .docs .masthead.fixed .masthead-menu {
+    padding-top: 7px; }
+  .docs .masthead.fixed .masthead-menu ul.full {
+    top: 50px; }
+  .docs .masthead-menu {
+    position: relative;
+    padding-bottom: 10px; }
+  @media screen and (min-width: 30.063em) {
+    .docs .masthead-menu {
+      padding: 5px 10px 10px 200px; } }
+  @media screen and (min-width: 48em) {
+    .docs .masthead-menu {
+      padding-top: 14px;
+      padding-bottom: 20px; } }
+  .docs .masthead-menu ul {
+    position: relative;
+    padding: 0 70px 0 5px;
+    margin: 0; }
+  @media screen and (min-width: 48em) {
+    .docs .masthead-menu ul {
+      text-align: right; } }
+  @media screen and (min-width: 64em) {
+    .docs .masthead-menu ul {
+      padding-right: 5px; } }
+  .docs .masthead-menu ul.priority {
+    height: 33px;
+    overflow: hidden; }
+  .docs .masthead-menu ul.priority .tuck, .docs .masthead-menu ul:last-child {
+    display: none; }
+  @media screen and (min-width: 64em) {
+    .docs .masthead-menu ul.priority .more a {
+      position: relative; }
+    .docs .masthead-menu ul.priority .more a:before {
+      content: none;
+      position: absolute;
+      top: 7px;
+      right: 10px;
+      bottom: 7px;
+      left: 10px;
+      text-align: left;
+      background-color: #1E232A; } }
+  .docs .masthead-menu ul.full {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1E232A;
+    padding-bottom: 5px; }
+  @media screen and (min-width: 30.063em) {
+    .docs .masthead-menu ul.full {
+      top: 5px;
+      padding-right: 70px;
+      padding-left: 205px; } }
+  @media screen and (min-width: 48em) {
+    .docs .masthead-menu ul.full {
+      top: 14px;
+      padding-left: 225px; } }
+  @media screen and (min-width: 64em) {
+    .docs .masthead-menu ul.full {
+      top: 100%;
+      right: 85px;
+      left: auto;
+      text-align: left;
+      padding-left: 5px; }
+    .docs .masthead-menu ul.full li {
+      display: none; }
+    .docs .masthead-menu ul.full li.active:after {
+      content: none; }
+    .docs .masthead-menu ul.full li.active a {
+      position: relative; }
+    .docs .masthead-menu ul.full li.active a:after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      bottom: 0;
+      left: 10px;
+      height: 2px;
+      background-color: #979797; }
+    .docs .masthead-menu ul.full li.tuck {
+      display: block; } }
+  .docs .masthead-menu li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    position: relative; }
+  .docs .masthead-menu li.active:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+    height: 2px;
+    background-color: #979797; }
+  @media screen and (min-width: 48em) {
+    .docs .masthead-menu li {
+      margin-right: 20px; } }
+  .docs .masthead-menu li a {
+    display: inline-block;
+    color: #FBF9F6;
+    border: 2px solid transparent;
+    padding: 7px 10px; }
+  .docs .masthead-menu li a:hover {
+    color: #979797; }
+  .docs .masthead-menu li:last-child {
+    margin-right: 40px; }
+  @media screen and (min-width: 64em) {
+    .docs .masthead-menu li:last-child {
+      margin-right: 0; } }
+  @media screen and (min-width: 30.063em) {
+    .docs .priority .masthead-menu li.tuck {
+      display: none; } }
+  .docs .masthead-menu li.persist a {
+    border-radius: 3px;
+    border-color: #000; }
+  .docs .masthead-menu li.cta a {
+    color: #FFC334;
+    background-color: #000; }
+  .docs .masthead-menu li.cta a:hover {
+    background-color: #1E232A; }
+  .docs .masthead-menu li.more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: -7px 0 10px 0 #1e232a;
+    background-color: #1E232A;
+    margin-right: 0; }
+  @media screen and (min-width: 64em) {
+    .docs .masthead-menu li.more {
+      position: static;
+      box-shadow: none;
+      margin-right: 20px; } }
+  .docs .masthead-menu li.more a {
+    color: #979797; }
+  .docs .masthead-menu li.more a:hover {
+    color: #FBF9F6; }
+  .docs .masthead-menu li.more a.active:after {
+    content: none; }
+  .docs .masthead-menu.expanded {
+    z-index: 3; }
+  .docs .masthead-menu.expanded ul.priority .more {
+    display: none; }
+  @media screen and (min-width: 64em) {
+    .docs .masthead-menu.expanded ul.priority .more {
+      display: inline-block; }
+    .docs .masthead-menu.expanded ul.priority .more a:before {
+      content: '\002D  Less'; } }
+  .docs .masthead-menu.expanded ul.full {
+    display: block; }
+  .docs [class*=header-] {
+    background-color: #2b323a;
+    background-image: url(http://github.ushahidi.org/dotcom-pattern-library/assets/img/map-bg.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #C7CCD4; }
+  .docs [class*=header-] {
+    text-align: center;
+    padding: 20px;
+    position: relative; }
+  .docs [class*=header-] h3 {
+    font-size: 1em; }
+  @media screen and (min-width: 48em) {
+    .docs [class*=header-] h3 {
+      font-size: 1.125em; } }
+  @media screen and (min-width: 64em) {
+    .docs [class*=header-] h3 {
+      font-size: 1.25em; } }
+  .docs [class*=header-] a {
+    color: #C7CCD4;
+    border: 0;
+    border-bottom: 2px solid #616467; }
+  .docs [class*=header-] a.active {
+    color: #fff;
+    border-bottom: 2px solid #fff; }
+  @media screen and (min-width: 48em) {
+    .docs .header-basic {
+      padding: 40px 20px; } }
+  .docs footer {
+    background-color: #2b323a;
+    background-image: url(http://github.ushahidi.org/dotcom-pattern-library/assets/img/map-bg.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #C7CCD4; }
+  .docs footer {
+    padding: 10px 0;
+    text-align: center; }
+  .docs footer li {
+    font-size: 14px; }
+  .docs footer .footer-logo {
+    width: 50%;
+    max-width: 200px;
+    margin: 10px auto; }
+  .docs footer .footer-logo img {
+    display: inline-block; }
+  .docs footer a {
+    color: #fff; }
+  .docs footer a:hover {
+    color: #E1E1E1; }
+  .docs footer .main-footer-links, .docs footer .secondary-footer-links {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px; }
+  @media screen and (min-width: 48em) {
+    .docs footer .main-footer-links, .docs footer .secondary-footer-links {
+      display: inline;
+      margin: 0; } }
+  .docs footer .main-footer-links li, .docs footer .secondary-footer-links li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 10px; }
+  .docs footer .secondary-footer-links li a {
+    padding: 10px;
+    background: #1E232A; }
+  .docs footer blockquote.small, .docs footer p.small {
+    margin-top: 40px;
+    font-size: 14px; }
+  @media screen and (min-width: 64em) {
+    .docs footer blockquote.small, .docs footer p.small {
+      clear: both; } }
+  .docs footer blockquote.small a, .docs footer p.small a {
+    text-decoration: underline;
+    margin-left: 15px; }
+  .docs .social-footer-links {
+    margin: 10px 0;
+    fill: #2274B4; }
+  .docs .social-footer-links li {
+    display: inline; }
+  .docs .social-footer-links li img {
+    display: inline;
+    max-width: 30px;
+    padding-right: 5px; }
+  .docs p, .docs li {
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 10px 0; }
+    @media screen and (min-width: 48em) {
+      .docs p, .docs li {
+        font-size: 18px; } }
+  @media screen and (min-width: 48em) {
+    .docs .main-nav {
+      margin-top: 40px; } }
+  .docs .main-nav li {
+    font-size: 14px; }
+  .docs .navigation {
+    background: #FBF9F6; }
+  .docs .container, .docs .header-full {
+    z-index: 0 !important; }
+  .docs .header .nav-icon {
+    margin: 0; }
+  .docs .wrapper {
+    margin: 0 auto;
+    max-width: 1200px; }
+  .docs .btn {
+    background: #2274B4;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-family: Lato,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 0; }
+  .docs .btn:hover {
+    background: #1a5889;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
