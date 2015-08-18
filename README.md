@@ -1,6 +1,6 @@
 docs.ushahidi.com
 =================
 
-The Ushahidi Platform V3.X User Documentation
+The Ushahidi v3 User Documentation
 
 This repository holds the nascent documentation for the Ushahidi v3 platform.

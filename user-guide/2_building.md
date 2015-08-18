@@ -301,6 +301,6 @@ Examples of Human Rights deployments https://www.apc.org/ushahidi/ http://www.ia
 Ushahidi offers other versions of the its platform than the server-based v3 platform. (get official language from Nat).
 
 •    Crowdmap
-•    V3 Platform
+•    v3 Platform
 •    Red Carpet
 •    Custom Solutions

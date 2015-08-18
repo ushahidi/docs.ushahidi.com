@@ -6,7 +6,7 @@ categories: top
 weight: -1
 ---
 
-## What is Ushahidi Platform?
+## What is Ushahidi?
 
 Ushahidi is an open source web application for information collection,
 visualization and interactive mapping. It helps you to collect info from: SMS,
@@ -20,7 +20,7 @@ time to do very deep user experience research within our user base, our
 developer base, and our own team in order to build a new, better Ushahidi core
 platform. We call it "v3".
 
-Ushahidi 3.x is the next iteration of this tool, rebuilt from the ground up --
+Ushahidi v3 is the next iteration of this tool, rebuilt from the ground up --
 not only the code but the way in which we think about users interacting with
 mobile and social data.
 
@@ -48,25 +48,25 @@ moving up to those with web access for a beautiful visual feel.
 
 Key Improvements:
 
-- V3 is designed to support all types of social good activities, not simply crises.
+- v3 is designed to support all types of social good activities, not simply crises.
 - Mobile first, responsive user interface.
 - Better, deeply integrated custom forms (post types)
 - Customisable workflows: create a set of steps that match your workflow
 
-## Should I use Ushahidi 3.x for my new project?
+## Should I use Ushahidi v3 for my new project?
 
 Almost, but not yet. Probably in late 2015.
 
 If you want to try it out we release betas [on github](http://github.com/ushahidi/platform/releases) regularly
 
-## I'm a developer, should I contribute to Ushahidi 3.x?
+## I'm a developer, should I contribute to Ushahidi v3?
 
 Yes! Development moves pretty quickly but the tech stack is getting more and more stable. If you're keen to help build something awesome, [Jump on board..](get-involved.html)
 
 ## Further Reading
 
   * [Getting Involved](/get-involved.html)
-  * [Installing Ushahidi 3.x](/install/)
+  * [Installing Ushahidi](/install/)
   * [Developer Guide](/developer-guide/)
   * [Downloads](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+Downloads)
   * [Research](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+Research)

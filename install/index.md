@@ -7,7 +7,7 @@ categories: top
 weight: 1
 ---
 
-Ushahidi Platform can be installed on several operating systems. We have different instructions depending on what type of user you are:
+Ushahidi can be installed on several operating systems. We have different instructions depending on what type of user you are:
 
 ### Just trying it out?
 

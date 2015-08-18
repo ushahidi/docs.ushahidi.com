@@ -14,7 +14,7 @@ You will need these on your development machine
 
 ## Get a github account
 
-Ushahidi Platform code development has been happening on [Phabricator](https://phabricator.ushahidi.com). However we're moving back to [Github](https://github.com/ushahidi/platform/issues) so new contributors should start there.
+Ushahidi code development has been happening on [Phabricator](https://phabricator.ushahidi.com). However we're moving back to [Github](https://github.com/ushahidi/platform/issues) so new contributors should start there.
 
 First, [create a github account](https://github.com/join)
 
@@ -22,7 +22,7 @@ First, [create a github account](https://github.com/join)
 
 > A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-The Ushahidi Platform is built from 3 separate repositories. Depending on the task you'll need to [fork](https://help.github.com/articles/fork-a-repo/) one or more of these. Usually you'll need to fork at least the API and the Client repositories.
+The Ushahidi is built from 3 separate repositories. Depending on the task you'll need to [fork](https://help.github.com/articles/fork-a-repo/) one or more of these. Usually you'll need to fork at least the API and the Client repositories.
 
 - [Platform API](https://github.com/ushahidi/platform): This is the where the API for the platform is developed.
 - [Platform Client](https://github.com/ushahidi/platform-client): This is where the JS client for the platform is developed.
@@ -59,7 +59,7 @@ When you clone a repository, the URL you clone is always created as the "origin"
 
 The best way to pick a feature to work on is to say hi to Ushahidi’s developers, let them know what you’d like to work on (front end, back end, etc), and chat about what could be suitable for you.
 
-Ushahidi Platform issues (bugs, feature requests, etc) are in Github Issues. Find something that needs doing.
+Ushahidi issues (bugs, feature requests, etc) are in Github Issues. Find something that needs doing.
 
 - [Community tasks](https://github.com/ushahidi/platform/labels/Community%20Task) in github are feature that are up for grabs by community devs.
 
@@ -70,7 +70,7 @@ Older tasks (bugs, features) are still in Phabricator. There are two places to l
 
 ## Start a branch for your feature
 
-If you’re working on a feature that nobody has claimed before, you will need to create a branch of Ushahidi Platform that’s specific to this feature.  To do this, cd (change directory) into your Ushahidi Platform code in the terminal window, and type:
+If you’re working on a feature that nobody has claimed before, you will need to create a branch of Ushahidi that’s specific to this feature.  To do this, cd (change directory) into your Ushahidi code in the terminal window, and type:
 
 ```
 git checkout master
@@ -82,9 +82,9 @@ Where “some-task” is a short description *without spaces* of what this task 
 
 ## Write Code
 
-Now write your code.  Make sure you meet the [Ushahidi Platform coding standards](https://wiki.ushahidi.com/pages/viewpage.action?pageId=8359652) and use the [Ushahidi Platform pattern library](https://github.com/ushahidi/platform-pattern-library) if you’re writing front-end code.
+Now write your code.  Make sure you meet the [Ushahidi coding standards](https://wiki.ushahidi.com/pages/viewpage.action?pageId=8359652) and use the [Ushahidi pattern library](https://github.com/ushahidi/platform-pattern-library) if you’re writing front-end code.
 
-If you get stuck, or want to talk through ideas, you can contact other Ushahidi Platform developers on the [hipchat, IRC or Gitter](/get-involved.html).
+If you get stuck, or want to talk through ideas, you can contact other Ushahidi developers on the [hipchat, IRC or Gitter](/get-involved.html).
 
 ## Submit your code
 
@@ -108,7 +108,7 @@ When you’re ready to submit your code for approval, do this:
 
 The first time you submit code you may be asked to sign Ushahidi’s [contributor agreement](https://phabricator.ushahidi.com/L2).
 
-The Ushahidi Platform admins will then review and comment on your code, and will either accept your code or ask you to make changes to it.  If you are asked to make changes to your code, make those changes then resubmit your code using:
+The Ushahidi admins will then review and comment on your code, and will either accept your code or ask you to make changes to it.  If you are asked to make changes to your code, make those changes then resubmit your code using:
 
 ```
 git add .
