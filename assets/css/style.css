@@ -357,5 +357,19 @@
   .docs .btn:hover {
     background: #1a5889;
     color: #fff; }
+  .docs pre {
+    background: #ffffff;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid #EFECE8; }
+    .docs pre code {
+      font-size: 14px;
+      background: #ffffff;
+      font-weight: normal; }
+  .docs code {
+    font-size: 18px;
+    font-weight: normal;
+    background: #EFECE8;
+    padding: 0px 5px; }
 
 /*# sourceMappingURL=style.css.map */

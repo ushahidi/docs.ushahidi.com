@@ -180,5 +180,24 @@ footer blockquote.small a,footer p.small a{text-decoration:underline;margin-left
     .btn{background:#2274B4;border-radius:5px;border:none;padding:10px 20px;text-align:center;color:#fff;font-weight:900;font-family:Lato,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;font-size:1em;cursor:pointer;display:inline-block;margin:20px 0}
 
     .btn:hover{background:#1a5889;color:#fff}
+
+    pre {
+        background: #ffffff;
+        padding: 10px 5px;
+        border-radius: 3px;
+        border: 1px solid #EFECE8;
+        code {
+            font-size: 14px;
+            background: #ffffff;
+            font-weight: normal;
+        }
+    }
+
+    code {
+        font-size: 18px;
+        font-weight: normal;
+        background: #EFECE8;
+        padding: 0px 5px;
+    }
     
 }
