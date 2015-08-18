@@ -25,6 +25,6 @@ Ushahidi Platform can be installed on several operating systems. We have differe
 
 ### After install
 
-* ...
+* Video tutorials coming soon
 
 {% assign pages = (site.pages | sort: "weight" | where: "categories", "getting-started" | where: "hideFromMenu", false)  %}
