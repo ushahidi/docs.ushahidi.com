@@ -7,20 +7,26 @@ weight: 0
 ---
 
 * [Installing the API](#installing-the-api)
-    * [Getting the code](#getting-the-code)
+    * [Getting the api code](#getting-the-api-code)
     * [Preparing the Server](#preparing-the-server)
     * [Logging in the first time](#logging-in-the-first-time)
 * [Installing the client](#installing-the-client)
-    * [Getting the code](#getting-the-code-1)
+    * [Getting the client code](#getting-the-client-code)
+    * [Dependencies](#client-dependencies)
+    * [Install, build and run a local dev server](#install,-build-and-run-a-local-dev-server)
 
 ## Installing the API
 
-### Getting the code
+### Getting the API code
 
 First, you will need a copy of the source code, which lives in our Github
 repository:
 
-    % git clone https://github.com/ushahidi/platform.git
+```
+git clone https://github.com/ushahidi/platform.git
+```
+
+**Note**: if you're getting set up for development, you might want to [fork the repository](developer-guide/adding-code.html) first.
 
 Once you have the code, the next step is to prepare a web server.
 
@@ -36,14 +42,14 @@ Once you have the code, the next step is to prepare a web server.
 Before we run vagrant we need to get some puppet modules. We do this with librarian puppet:
 
 ```
-% gem install puppet librarian-puppet
-% librarian-puppet install
+gem install puppet librarian-puppet
+librarian-puppet install
 ```
 
 Then you can bring up the vagrant server and provision it:
 
 ```
-% vagrant up && vagrant provision
+vagrant up && vagrant provision
 ```
 
 This should set up a server, and install all the dependencies too.
@@ -60,19 +66,19 @@ permissions too.
 
 ## Installing the client
 
-### Getting the code
+### Getting the client code
 
 First, you will need a copy of the source code, which lives in our Github
 repository:
 
 ```
-% git clone https://github.com/ushahidi/platform-client.git
+git clone https://github.com/ushahidi/platform-client.git
 ```
 
 > The latest install instructions for the client are always in the [README](https://github.com/ushahidi
 /platform-client/blob/master/README.md). If you have any trouble check those instructions first.
 
-### Libraries/Packages/Dependencies
+### Client dependencies
 
 First you'll need nodejs or io.js installed,
 npm takes care of the rest of our dependencies.
@@ -86,6 +92,10 @@ npm takes care of the rest of our dependencies.
     ```
     git clone https://github.com/ushahidi/platform-client.git
     ```
+
+    **Note**: if you're getting set up for development, you might want to [fork the repository](developer-guide/adding-code.html) first.
+
+
 2. Navigate to project root
 
     ```

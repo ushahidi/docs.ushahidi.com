@@ -28,16 +28,3 @@ Ushahidi Platform can be installed on several operating systems. We have differe
 * ...
 
 {% assign pages = (site.pages | sort: "weight" | where: "categories", "getting-started" | where: "hideFromMenu", false)  %}
-
-<!--<div class="cards-select">
-    {% for p in pages %}
-    <div class="selection-card">
-        <a href="{{ p.url }}">
-            <h3>{{p.title}}</h3>
-            <p>
-                {{p.subtitle}}
-            </p>
-        </a>
-    </div>
-    {% endfor %}
-</div>--><!--end cards select-->

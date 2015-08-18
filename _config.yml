@@ -10,4 +10,4 @@ markdown: redcarpet
 highlighter: pygments
 
 redcarpet:
-  extensions: ["tables", "fenced_code_blocks"]
+  extensions: ["tables", "fenced_code_blocks", "with_toc_data", "autolink"]

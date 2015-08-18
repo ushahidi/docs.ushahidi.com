@@ -28,23 +28,12 @@ The ushahidi platform stack is:
 Ushahidi Platform will run on any platform that supports PHP, including Linux,
 Mac OSX and Windows.
 
-### Get started:
+### Get started
 
   1. [Installing the Ushahidi Platform](/getting-started/)
   2. [Connecting with other developers](/get-involved.html)
-  3. Adding code the the Ushahidi Platform
+  3. [Adding code the the Ushahidi Platform](/developer-guide/adding-code.html)
 
-{% assign pages = (site.pages | where: "categories", "dev-guide" | where: "hideFromMenu", false)  %}
+### Further reading
 
-<div class="cards-select">
-    {% for p in pages %}
-    <div class="selection-card">
-        <a href="{{ p.url }}">
-            <h3>{{p.title}}</h3>
-            <p>
-                {{p.subtitle}}
-            </p>
-        </a>
-    </div>
-    {% endfor %}
-</div><!--end cards select-->
+- Old [Developer Guide](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+-+Developer+Guide) on the wiki. This is slowly being migrated to this site.
