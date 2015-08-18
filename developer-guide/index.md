@@ -30,7 +30,7 @@ Mac OSX and Windows.
 
 ### Get started
 
-  1. [Installing the Ushahidi Platform](/getting-started/)
+  1. [Installing the Ushahidi Platform](/install/)
   2. [Connecting with other developers](/get-involved.html)
   3. [Adding code the the Ushahidi Platform](/developer-guide/adding-code.html)
 

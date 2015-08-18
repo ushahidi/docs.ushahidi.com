@@ -66,7 +66,7 @@ Yes! Development moves pretty quickly but the tech stack is getting more and mor
 ## Further Reading
 
   * [Getting Involved](/get-involved.html)
-  * [Installing Ushahidi 3.x](/getting-started.md)
+  * [Installing Ushahidi 3.x](/install/)
   * [Developer Guide](/developer-guide/)
   * [Downloads](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+Downloads)
   * [Research](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v3.x+Research)

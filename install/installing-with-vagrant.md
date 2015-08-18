@@ -2,7 +2,7 @@
 layout: page
 title:  "Installing with vagrant"
 subtitle: ""
-categories: getting-started
+categories: install
 weight: 0
 ---
 
