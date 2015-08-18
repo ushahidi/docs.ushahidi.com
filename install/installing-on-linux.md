@@ -48,7 +48,7 @@ the following requirements:
 To create a database, first login to MySQL as root.
 
 ```
-% mysql -u root -p
+mysql -u root -p
 ```
 
 > Using the `-p` is only required when your MySQL configuration requires it.
