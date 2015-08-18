@@ -7,25 +7,35 @@
 
   {% include head.html %}
 
-<body class="">
+<body class="docs">
 
-    <header class="header header-full overlay">
+    <header class="masthead">
+        <h1 class="logo"><a href="http://ushahidi.com">Ushahidi</a></h1>
+
+        <nav class="masthead-menu">
+            <ul>
+                <li><a href="http://ushahidi.com/features">Features</a></li>
+                <!--<li><a href="">Plans</a></li>-->
+                <li><a href="http://ushahidi.com/about">About</a></li>
+                <li class="active"><a href="">Support</a></li>
+                <li class="tuck"><a href="http://ushahidi.com/blog">Blog</a></li>
+                <li class="tuck"><a href="http://ushahidi.com/other-products">Other Products</a></li>
+                <li class="tuck"><a href="http://ushahidi.com/solutions">Solutions</a></li>
+                <li class="tuck"><a href="http://ushahidi.com/contact">Contact</a></li>
+                <li class="persist cta"><a href="https://github.com/ushahidi/platform">Download Code</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="header header-basic">
         <div class="container">
-            <div class="hero-image">
-                <img src="{{ "/assets/img/header-bk.jpg" | prepend: site.baseurl }}" />
-            </div>
-
-            <div class="color-overlay">
-                <div class="parallax">
-                    <div class="nav-icon nav-icon-js">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <h1 class="beta">{{site.title}}</h1>
-                    <p class="header-description">{{site.description}}</p>
+                <div class="nav-icon nav-icon-js">
+                    <span></span> 
+                    <span></span>
+                    <span></span> 
                 </div>
-            </div>
+                <h1 class="alt">{{site.title}}</h1>
+                <p class="header-description">{{site.description}}</p>
         </div>
     </header>
 
@@ -34,7 +44,7 @@
 
         <nav class="navigation" role="navigation">
             <div class="nav-icon nav-icon-js open">
-                <span></span>
+                <span></span> 
                 <span></span>
                 <span></span>
             </div>
@@ -54,8 +64,6 @@
         <main class="page-content has-aside">
 
             <div class="main-col">
-
-
 
 				{{ content }}
 
