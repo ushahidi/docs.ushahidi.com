@@ -9,11 +9,11 @@ weight: 0
 * [Installing the API](#installing-the-api)
     * [Getting the api code](#getting-the-api-code)
     * [Preparing the Server](#preparing-the-server)
-    * [Logging in the first time](#logging-in-the-first-time)
 * [Installing the client](#installing-the-client)
     * [Getting the client code](#getting-the-client-code)
     * [Dependencies](#client-dependencies)
     * [Install, build and run a local dev server](#install,-build-and-run-a-local-dev-server)
+* [Logging in the first time](#logging-in-the-first-time)
 
 ## Installing the API
 
@@ -57,12 +57,6 @@ This should set up a server, and install all the dependencies too.
 Go to [192.168.33.110](http://192.168.33.110) to check the API is up and running. You should see some JSON with an API version, endpoints and user info.
 
 > The vagrant set up uses a 64 bit VM so you may need to enable 64 bit virtualization on your host machine.
-
-### Logging in the first time
-
-The default install creates a user **admin** with password **admin**. Once
-logged in this user can create further user accounts or give others admin
-permissions too.
 
 ## Installing the client
 
@@ -127,3 +121,10 @@ npm takes care of the rest of our dependencies.
     gulp
     ```
 8. You should now have a local development server running on http://localhost:8080
+
+
+## Logging in the first time
+
+The default install creates a user **admin** with password **admin**. Once
+logged in this user can create further user accounts or give others admin
+permissions too.
