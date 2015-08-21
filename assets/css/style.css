@@ -59,7 +59,7 @@
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-    background-image: url(http://github.ushahidi.org/dotcom-pattern-library/assets/img/ushahidi-wordmark.svg);
+    background-image: url(http://github.ushahidi.org/dotcom-pattern-library/assets/img/ushahidi-wordmark-white.svg);
     margin: 0 auto; }
   @media screen and (min-width: 30.063em) {
     .docs .masthead .logo a {
