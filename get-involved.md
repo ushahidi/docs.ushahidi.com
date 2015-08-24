@@ -23,7 +23,10 @@ Connect with the wider Ushahidi community:
 See the [developer guide](/developer-guide) and our step-by-step guide to [adding code to the platform](developer-guide/adding-code.html)
 
 ## Contributing to translations
-Help us make the platform available in as many languages as possible. See our [Transifex repository](https://transifex.com/ushahidi/ushahidi-v3/) and [instructions on how to get started](https://wiki.ushahidi.com/display/WIKI/Localization+and+Translation+-+How+to)
+Help us make the platform available in as many languages as possible.
+
+- Translations live in our [Transifex repository](https://transifex.com/ushahidi/ushahidi-v3/)
+- [Instructions on how to start translating](https://wiki.ushahidi.com/display/WIKI/Localization+and+Translation+-+How+to)
 
 
 
