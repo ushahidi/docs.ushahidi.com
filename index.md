@@ -55,9 +55,7 @@ Key Improvements:
 
 ## Should I use Ushahidi v3 for my new project?
 
-Almost, but not yet. Probably in late 2015.
-
-If you want to try it out we release betas [on github](http://github.com/ushahidi/platform/releases) regularly
+That depends.. we've [released v3](https://github.com/ushahidi/platform/releases) to the public and it should be usable in production. However it's still missing a few features we had in v2. We recommend you give it a try and see if it meets your needs. If somethings missing let us know! It helps us prioritise future development
 
 ## I'm a developer, should I contribute to Ushahidi v3?
 
