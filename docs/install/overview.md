@@ -26,5 +26,3 @@ Ushahidi can be installed on several operating systems. We have different instru
 ### After install
 
 * Video tutorials coming soon
-
-{% assign pages = (site.pages | sort: "weight" | where: "categories", "install" | where: "hideFromMenu", false)  %}
