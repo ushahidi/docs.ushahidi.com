@@ -69,10 +69,10 @@ Now create a `.env` config file in the base of repository. Make sure that the da
 
 ```
 DB_HOST=localhost
-DB_NAME=username
-DB_PASS=password
+DB_NAME=ushahidi
 DB_TYPE=MySQLi
-DB_USER=ushahidi
+DB_USER=username
+DB_PASS=password
 ```
 
 ### Set up URL rewrites
