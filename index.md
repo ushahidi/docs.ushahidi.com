@@ -8,9 +8,9 @@ weight: -1
 
 ## What is Ushahidi?
 
-Ushahidi is an open source web application that helps you gather reports to 
-understand what happened, when and where. It helps you collect info from: 
-SMS,Twitter, RSS feeds, Email. It helps you to process that information,
+Ushahidi is an open source web application that helps you gather reports to
+understand what happened, when and where. It helps you collect info from:
+SMS, Twitter, RSS feeds, Email and other sources. It helps you to process that information,
 categorize it, geo-locate it and publish it on a map.
 
 ## What is Ushahidi v3 ?
@@ -38,11 +38,11 @@ management platform for crowdsourced data. With this in mind, we decided to
 build a more versatile tool that can be easily configured for data collection
 and visualization.
 
-The purpose of v3 is to provide a better crowdsourcing platform, so that the 
-leaders, crisis responders, funders, and decision making organizations can 
+The purpose of v3 is to provide a better crowdsourcing platform, so that the
+leaders, crisis responders, funders, and decision making organizations can
 do their work more efficiently, gather better information, and understand
-what is happening on the ground. It is a data collection platform that makes 
-gathering and organizing data easy. It is a mobile first platform, as always, 
+what is happening on the ground. It is a data collection platform that makes
+gathering and organizing data easy. It is a mobile first platform, as always,
 thinking of people with simple phones and moving up to those with web access
 for a beautiful visual feel.
 
@@ -50,12 +50,12 @@ Key Improvements:
 
 - v3 is designed to support all types of social good activities, not simply crises.
 - Mobile first, responsive user interface.
-- Better, deeply integrated post types(previously referred to as custom forms)
+- Better, deeply integrated post types (previously referred to as custom forms)
 - Customisable workflows: create a set of steps that match your workflow
 
 ## Should I use Ushahidi v3 for my new project?
 
-That depends.. We've [released v3](https://github.com/ushahidi/platform/releases) to the public. However, past users may notice it is still missing a few features that were in v2. We recommend you give it a try and see if it meets your needs.If something is missing, let us know! Your feedback will help us prioritise future development.
+That depends.. We've [released v3](https://github.com/ushahidi/platform/releases) to the public. However, past users may notice it is still missing a few features that were in v2. We recommend you give it a try and see if it meets your needs. If something is missing, let us know! Your feedback will help us prioritise future development.
 
 ## I'm a developer, should I contribute to Ushahidi v3?
 
