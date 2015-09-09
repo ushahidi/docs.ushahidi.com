@@ -60,8 +60,8 @@ Next, create a new user and database for Ushahidi. The username and database
 can be anything; we will use `ushahidi` for both in this example:
 
 ```
-CREATE DATABASE ushahidi;
-GRANT ALL ON ushahidi.* to ushahidi@localhost IDENTIFIED BY 'set-a-custom-password-here';
+CREATE DATABASE ushahidi_db;
+GRANT ALL ON ushahidi_db.* to ushahidi_user@localhost IDENTIFIED BY 'ushahidi-db-password';
 quit;
 ```
 
@@ -69,10 +69,10 @@ Now create a `.env` config file in the base of repository. Make sure that the da
 
 ```
 DB_HOST=localhost
-DB_NAME=ushahidi
+DB_NAME=ushahidi_db
 DB_TYPE=MySQLi
-DB_USER=username
-DB_PASS=password
+DB_USER=ushahidi_user
+DB_PASS=ushahidi-db-password
 ```
 
 ### Set up URL rewrites
