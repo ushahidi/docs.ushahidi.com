@@ -1,10 +1,4 @@
----
-layout: page
-title:  "Get Involved"
-date:   2015-04-23 22:53:00
-categories: top
-weight: 4
----
+# Get Involved
 
 ## Join the Community
 

@@ -1,11 +1,4 @@
----
-layout: page
-title:  "Installing Ushahidi"
-subtitle: ""
-date:   2015-04-23 22:53:00
-categories: top
-weight: 1
----
+# Installing Ushahidi
 
 Ushahidi can be installed on several operating systems. We have different instructions depending on what type of user you are:
 

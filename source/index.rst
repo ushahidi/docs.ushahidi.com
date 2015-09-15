@@ -1,21 +1,33 @@
-Welcome to Ushahidi Platform's documentation!
+Ushahidi
 =============================================
 
-Contents:
+.. toctree::
+   :caption: Overview
+   :hidden:
+   :maxdepth: 1
+
+   index
+   get-involved
+
+.. _install:
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Install
+   :hidden:
 
-   get-involved
    install/overview
+   install/installing-on-heroku
+   install/installing-on-linux
+   install/installing-with-vagrant
+
+.. _developer-guide:
+
+.. toctree::
+   :caption: Developer Guide
+   :hidden:
+
    developer-guide/overview
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   developer-guide/adding-code
 
 What is Ushahidi?
 -----------------

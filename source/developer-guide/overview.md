@@ -1,11 +1,10 @@
----
-layout: page
-title:  "Developer Guide"
-subtitle: "A guide for developing Ushahidi"
-date:   2015-04-23 22:53:00
-categories: top
-weight: 3
----
+# Developer Guide
+
+.. toctree::
+   :hidden:
+   :maxdepth: 4
+
+   developer-guide/*
 
 First, thank you for contributing to Ushahidi - thousands of
 groups use this platform worldwide, and your work will help benefit all of
