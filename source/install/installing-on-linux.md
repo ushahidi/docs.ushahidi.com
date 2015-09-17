@@ -1,10 +1,5 @@
----
-layout: page
-title:  "Installing on linux"
-subtitle: ""
-categories: install
-weight: 0
----
+Installing on Linux
+===================
 
 * [Installing the API](#installing-the-api)
     * [Getting the api code](#getting-the-api-code)

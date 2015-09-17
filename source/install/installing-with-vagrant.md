@@ -1,10 +1,5 @@
----
-layout: page
-title:  "Installing with vagrant"
-subtitle: ""
-categories: install
-weight: 0
----
+Installing with Vagrant
+=======================
 
 * [Installing the API](#installing-the-api)
     * [Getting the api code](#getting-the-api-code)

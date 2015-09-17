@@ -1,11 +1,5 @@
 # Developer Guide
 
-.. toctree::
-   :hidden:
-   :maxdepth: 4
-
-   developer-guide/*
-
 First, thank you for contributing to Ushahidi - thousands of
 groups use this platform worldwide, and your work will help benefit all of
 them.

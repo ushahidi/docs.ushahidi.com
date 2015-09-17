@@ -2,32 +2,10 @@ Ushahidi
 =============================================
 
 .. toctree::
-   :caption: Overview
-   :hidden:
    :maxdepth: 1
 
-   index
    get-involved
-
-.. _install:
-
-.. toctree::
-   :caption: Install
-   :hidden:
-
-   install/overview
-   install/installing-on-heroku
-   install/installing-on-linux
-   install/installing-with-vagrant
-
-.. _developer-guide:
-
-.. toctree::
-   :caption: Developer Guide
-   :hidden:
-
-   developer-guide/overview
-   developer-guide/adding-code
+   install/index
 
 What is Ushahidi?
 -----------------

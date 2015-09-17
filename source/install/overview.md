@@ -1,4 +1,5 @@
-# Installing Ushahidi
+Overview
+========
 
 Ushahidi can be installed on several operating systems. We have different instructions depending on what type of user you are:
 

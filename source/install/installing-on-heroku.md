@@ -1,10 +1,5 @@
----
-layout: page
-title:  "Installing on Heroku"
-subtitle: ""
-categories: install
-weight: 1
----
+Installing on Heroku
+====================
 
 Deploying on Heroku is good way to test out the platform quickly. Its also a viable option for running a production deployment (though this could be expensive depending on your traffic needs).
 
