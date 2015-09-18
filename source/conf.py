@@ -125,7 +125,7 @@ todo_include_todos = True
 #if not on_rtd:  # only import and set the theme if we're building docs locally
 #    import sphinx_rtd_theme
 
-html_theme = 'ushahdi_sphinx_rtd_theme'
+html_theme = 'ushahidi_sphinx_rtd_theme'
 html_theme_path = ['_theme/ushahidi']
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
