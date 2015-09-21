@@ -136,7 +136,7 @@ if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
     #sys.path.append(os.path.abspath('_themes/ushahidi'))
 
 html_theme = 'ushahidi_sphinx_rtd_theme'
-html_theme_path = ['_theme/ushahidi']
+html_theme_path = ['_theme']
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
 # Theme options are theme-specific and customize the look and feel of a theme
