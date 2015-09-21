@@ -128,7 +128,7 @@ if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
     p = Popen('which git', shell=True, stdout=PIPE)
     #cwd = os.getcwd()
     #_themes = os.path.join(cwd, '_themes/ushahidi/')
-
+    print "working on this bit"
     git = p.stdout.read().strip()
     call([git, 'submodule', 'init'])
     call([git, 'submodule', 'update'])
