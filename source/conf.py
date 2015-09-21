@@ -130,11 +130,11 @@ if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
     _themes = os.path.join(cwd, '_themes/ushahidi/')
     git = p.stdout.read().strip()
     #if not os.listdir(_themes):
-    call([git, 'submodule', '--init'])
+    call([git, 'submodule', 'init'])
     #else:
     call([git, 'submodule', 'update'])
 
-    sys.path.append(os.path.abspath('_themes'))
+    sys.path.append(os.path.abspath('_themes/ushahidi'))
 
 html_theme_path = ['_theme/ushahidi']
 html_theme = 'ushahidi_sphinx_rtd_theme'
