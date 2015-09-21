@@ -131,7 +131,7 @@ if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
 
     git = p.stdout.read().strip()
     call([git, 'submodule', 'init'])
-    call([git, 'submodule', 'update'])
+    #call([git, 'submodule', 'update'])
 
     #sys.path.append(os.path.abspath('_themes/ushahidi'))
 
