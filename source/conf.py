@@ -122,8 +122,22 @@ todo_include_todos = True
 #import os
 
 #if not on_rtd:  # only import and set the theme if we're building docs locally
-html_theme = 'ushahidi_sphinx_rtd_theme'
+if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
+    from subprocess import call, Popen, PIPE
+
+    p = Popen('which git', shell=True, stdout=PIPE)
+    cwd = os.getcwd()
+    _themes = os.path.join(cwd, '_themes/ushahidi/')
+    git = p.stdout.read().strip()
+    #if not os.listdir(_themes):
+    call([git, 'submodule', '--init'])
+    #else:
+    call([git, 'submodule', 'update'])
+
+    sys.path.append(os.path.abspath('_themes'))
+
 html_theme_path = ['_theme/ushahidi']
+html_theme = 'ushahidi_sphinx_rtd_theme'
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
 # Theme options are theme-specific and customize the look and feel of a theme
