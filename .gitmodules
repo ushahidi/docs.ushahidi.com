@@ -1,3 +1,0 @@
-[submodule "docs/_theme"]
-	path = docs/_theme
-	url = https://github.com/ushahidi/ushahidi_sphinx_rtd_theme.git

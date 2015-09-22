@@ -82,7 +82,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_themes/README.rst']
+exclude_patterns = ['_theme/README.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -122,18 +122,10 @@ todo_include_todos = True
 #import os
 
 #if not on_rtd:  # only import and set the theme if we're building docs locally
-if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
-    from subprocess import call, Popen, PIPE
+import ushahidi_sphinx_rtd_theme
 
-    p = Popen('which git', shell=True, stdout=PIPE)
-    git = p.stdout.read().strip()
-    call([git, 'submodule', 'init'])
-    call([git, 'submodule', 'update'])
-
-
-sys.path.append(os.path.abspath('_themes'))
 html_theme = 'ushahidi_sphinx_rtd_theme'
-html_theme_path = ['_theme']
+html_theme_path = [ushahidi_sphinx_rtd_theme.get_html_theme_path()]
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
 # Theme options are theme-specific and customize the look and feel of a theme
