@@ -153,6 +153,10 @@ First you'll need nodejs or io.js installed,
 npm takes care of the rest of our dependencies.
 
 * nodejs v0.10 or v0.12 or io.js v1.2
+  * We recommend using NodeJS builds from [NodeSource](https://github.com/nodesource/distributions) or using [NVM](https://github.com/creationix/nvm)
+* Build tools for building native addons from npm:
+  * Debian users install the `build-essential` package
+  * Fedora users install `gcc-c++` and `make`
 * nginx or apache2
 
 ### Building the client
