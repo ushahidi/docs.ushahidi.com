@@ -14,7 +14,7 @@ tests_require = [
 docs_extras = [
     'Sphinx >= 1.3.1',
     'docutils',
-    'ushahidi-sphinx-rtd-themes'
+    'ushahidi-sphinx-rtd-theme'
     ]
 
 
