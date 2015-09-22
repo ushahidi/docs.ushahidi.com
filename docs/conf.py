@@ -126,6 +126,7 @@ import ushahidi_sphinx_rtd_theme
 
 html_theme = 'ushahidi_sphinx_rtd_theme'
 html_theme_path = [ushahidi_sphinx_rtd_theme.get_html_theme_path()]
+print html_theme_path
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
 # Theme options are theme-specific and customize the look and feel of a theme
