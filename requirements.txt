@@ -1,1 +1,2 @@
-recommonmark
+recommonmark,
+ushahidi_sphinx_rtd_theme
