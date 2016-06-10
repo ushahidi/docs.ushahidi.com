@@ -106,7 +106,7 @@ To do this run:
 OR
 
 ```
-% chown www-data 0777 application/logs application/cache application/media/uploads
+% chown www-data application/logs application/cache application/media/uploads
 ```
 
 Its generally better to use `chown` to set the owner of the directories to the user the web
