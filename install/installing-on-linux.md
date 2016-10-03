@@ -80,6 +80,13 @@ DB_PASS=ushahidi-db-password
 Rename `httpdocs/template.htaccess` to `httpdocs/.htaccess` (for Apache)
 to enable rewriting of all non-existent files to `index.php`.
 
+>(for Apache) In apache configuration file, make sure you include the override permission.
+>```
+><Directory "path_to/platform/httpdocs">
+>    AllowOverride All
+></Directory>
+>```
+
 > If you are unable to enable rewriting, then you'll need to customize the init settings.
 >
 > - Copy the `application/config/init.php` file into `application/config/environments/development/` (create this directory if it doesn't exist).
